@@ -1,5 +1,6 @@
 # Avaliação de Sistema
 
+<<<<<<< HEAD
 ## Curso
 - Engenharia de Software
 
@@ -16,3 +17,5 @@
 
 - Andrey Antonio de Oliveira Rodrigues
 
+=======
+>>>>>>> f0e373db0ac3051cc7f5f0664521166542e33371
