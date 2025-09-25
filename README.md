@@ -21,3 +21,16 @@
 - Andrey Antonio de Oliveira Rodrigues
 
 
+## Etapas do Processo
+
+- [Descrição do Sistema](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/1-Descricao-Sistema.md)
+
+- [Inspeção de Usabilidade](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/2-Inspecao-Usabilidade.md)
+
+- [Teste de Usabilidade](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/3-Teste-de-usabilidade.md)
+
+- [Avaliação-UX](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/4-Avalia%C3%A7%C3%A3o-UX.md)
+
+- [Avaliação de Comunicabilidade](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/5-Avaliacao-Comunicabilidade.md)
+
+- [Conclusões](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/6-Conclusoes.md)
