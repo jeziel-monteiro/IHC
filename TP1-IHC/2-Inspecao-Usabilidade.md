@@ -1,5 +1,23 @@
 # Inspeção de Usabilidade
 
+## Acesso das tabelas (Notion)
+
+### Detecção
+- [Arthur Djan Pinheiro Pontes](https://www.notion.so/269f84ef8262807bb3d9c43d954ce977?v=269f84ef8262812e8160000c04bccf59)
+
+- [Pedro Jhevison Menezes de Souza](https://www.notion.so/269f84ef8262801c928ff1844ba276d4?v=269f84ef826281929e99000cf384059e)
+
+- [Jeziel Monteiro Pessoa](https://www.notion.so/269f84ef826280848d2de39d57344a50?v=269f84ef8262813abb2f000c548d5553)
+
+- [Pâmilla Nunes Santos](https://www.notion.so/269f84ef8262806f85d8cc74817deeee?v=269f84ef826281609458000cc3bdd41b)
+
+- [Heloyse Heloá Serrão Viana](https://www.notion.so/269f84ef82628092a96fff7d7b0767c2?v=269f84ef8262812db6cb000c3b6dd952)
+
+- [Sérgio Augusto Limões Da Silva](https://www.notion.so/269f84ef82628049af85f80d575615c2?v=269f84ef826281498ea1000c00ce7eea)
+
+### Coleção
+- [](https://www.notion.so/269f84ef82628054b772cbe26a22793c?v=269f84ef826280859d43000c7db81532)
+  
 ## Preparação (Notion)
 Para organizar a inspeção, foi definido um integrante do grupo como responsável por criar e manter as tabelas dentro do Notion.  
 Foram criados quatro bancos de dados principais para registrar, consolidar e classificar os problemas de usabilidade identificados:
