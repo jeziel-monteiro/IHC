@@ -1,6 +1,6 @@
 # Inspeção de Usabilidade
 
-## Acesso das tabelas (Notion)
+## Acesso das Tabelas (Notion)
 
 ### Detecção
 - [Arthur Djan Pinheiro Pontes](https://www.notion.so/269f84ef8262807bb3d9c43d954ce977?v=269f84ef8262812e8160000c04bccf59)
@@ -16,7 +16,13 @@
 - [Sérgio Augusto Limões Da Silva](https://www.notion.so/269f84ef82628049af85f80d575615c2?v=269f84ef826281498ea1000c00ce7eea)
 
 ### Coleção
-- [](https://www.notion.so/269f84ef82628054b772cbe26a22793c?v=269f84ef826280859d43000c7db81532)
+- [Página da Coleção de Requisitos](https://www.notion.so/269f84ef82628054b772cbe26a22793c?v=269f84ef826280859d43000c7db81532)
+
+ ### Discriminação
+- [Página da Discrminação](https://www.notion.so/269f84ef82628061b6cffb63e71562bc?v=269f84ef826281a48ae1000c025506e6)
+
+### Relato dos Resultados
+- [Página de Relatos dos Resultados (Lista Limpa (Resultado Final))](https://www.notion.so/269f84ef82628077b052f53ab40c460f?v=269f84ef826281349785000c504400f2)
   
 ## Preparação (Notion)
 Para organizar a inspeção, foi definido um integrante do grupo como responsável por criar e manter as tabelas dentro do Notion.  
