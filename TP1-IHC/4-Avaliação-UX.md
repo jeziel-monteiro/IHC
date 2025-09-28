@@ -2,7 +2,7 @@
 
 <div align="justify">
 
-&ensp;Após os testes de usabilidade, realizamos com cada um dos participantes o questionário UEQ para fazer uma análise do sistema miro, os dados obtidos estão ilustrados a partir dos gráficos abaixo.
+&ensp;Após os testes de usabilidade, realizamos com cada um dos participantes o questionário UEQ para fazer uma análise do sistema Miro, os dados obtidos estão ilustrados a partir dos gráficos abaixo.
 
 ## Gráfico de média por itens 
 <img width="800" height="700" alt="Captura de tela 2025-09-28 162755" src="https://github.com/user-attachments/assets/c7c93d61-93ac-49f0-8c9b-0db50c522ff7" />
@@ -13,7 +13,7 @@ excelente experiência geral do usuário.
 ### Principais destaques do gráfico
 
 1. #### Estimulação e inovação  
-&ensp;Estes itens lidam com o apelo emocional e a criatividade do produto:
+&ensp;Estes itens lidam com o apelo emocional e a criatividade do sistema:
 
 - **seguro/não seguro** e não **interessante/interessante** são os mais positivos, com valores médios próximos de +2.5.
 Isso sugere que os usuários se sentem muito seguros e consideram o Miro muito interessante.
@@ -21,20 +21,20 @@ Isso sugere que os usuários se sentem muito seguros e consideram o Miro muito i
 - **motivante/desmotivante** e **atraente/não atraente** também têm pontuações muito altas.
 
 2. #### Atratividade
-&ensp;A impressão geral sobre o produto é muito positiva:
+&ensp;A impressão geral sobre o Miro é muito positiva:
 
-- Itens como **bom/ruim**, **agradável/desagradável** e **irritante/agradável** apresentam valores entre +1.5 e +2 indicando que o produto é amplamente gostado e considerado agradável pelos usuários.
+- Itens como **bom/ruim**, **agradável/desagradável** e **irritante/agradável** apresentam valores entre +1.5 e +2 indicando que o sistema é amplamente gostado e considerado agradável pelos usuários.
 
 - **amigável/não amigável** e **agradável/desagradável** também são muito bem avaliados.
 
 3. #### Eficiência e perspicuidade
-&ensp;Estes aspectos estão ligados à usabilidade e à eficácia na realização de tarefas:
+&ensp;Estes itens estão ligados à usabilidade e à eficácia na realização de tarefas:
 
 - **eficiente/ineficiente** e **rápido/lento** estão próximos de +1.5, mostrando que os usuários
 percebem o Miro como eficiente e rápido.
 
 - **claro/confuso**, **prático/imprático** e **organizado/desorganizado** têm pontuações entre +1 e +1.5, 
-indicando que o produto é percebido como claro, prático e organizado.
+indicando que o sistema é percebido como claro, prático e organizado.
 
 - **fácil de aprender/difícil de aprender** e **compreensível/não compreensível** também estão acima de +1.
 
@@ -45,7 +45,7 @@ indicando que o produto é percebido como claro, prático e organizado.
 &ensp;O único item com pontuação negativa é:
 
 - **inventivo/convencional**: Com um valor de aproximadamente -0.7, sugere que os usuários tendem a vê-lo como 
-mais convencional do que inventivo. Esta é a principal área de fraqueza do produto em termos de percepção de
+mais convencional do que inventivo. Esta é a principal área de fraqueza do sistema em termos de percepção de
 Novidade/Inovação.Embora a Novidade geral seja alta em outros itens como "criativo/chato", este ponto
 específico indica uma falta de "inventividade" em comparação com as altas expectativas.
 
@@ -80,24 +80,24 @@ a curva de aprendizado pode ser íngreme para um subgrupo de usuários iniciante
 ### Qualidades Hedônicas
 As qualidades hedônicas também são muito bem avaliadas:
 
-- **Atratividade**: Com 1.5, é a dimensão mais bem avaliada. O produto é altamente atraente e gera uma impressão geral o que 
+- **Atratividade**: Com 1.5, é a dimensão mais bem avaliada. O Miro é altamente atraente e gera uma impressão geral o que 
 impulsiona o desejo de uso.
 
-- **Estimulação**: Com 1.0, o produto é visto como interessante e motivador. O uso é uma experiência positiva e envolvente, o
+- **Estimulação**: Com 1.0, o sistema é visto como interessante e motivador. O uso é uma experiência positiva e envolvente, o
 que contribui para o engajamento a longo prazo.
 
 - **Inovação**: Com 0.281, esta é a área mais fraca. A pontuação está muito próxima de zero, caindo na zona amarela do gráfico. O sistema não é visto como particularmente inventivo ou de ponta. Embora seja funcional e agradável, falta-lhe a qualidade de vanguarda ou originalidade para se destacar no quesito inovação.
 
-## Gráfico de qualidades prágmaticas x hedônicas
+## Gráfico de qualidades pragmáticas x hedônicas
 
 <img width="600" height="350" alt="Captura de tela 2025-09-28 161840" src="https://github.com/user-attachments/assets/e2a0d92c-da32-411d-98ae-098cc0edc08a" />
 
 
-- **Atravidade**: Com média +1.6, o item atratividade apresenta a maior pontuação entre as três categorias. Este resultado forte indica que os usuários têm uma impressão geral altamente positiva do sistema. Eles o consideram agradável, bom e atraente. Essa alta valência é crucial, pois é o fator que impulsiona o uso inicial e a lealdade.
+- **Atratividade**: Com média +1.6, o item atratividade apresenta a maior pontuação entre as três categorias. Este resultado forte indica que os usuários têm uma impressão geral altamente positiva do sistema. Eles o consideram agradável, bom e atraente. Essa alta valência é crucial, pois é o fator que impulsiona o uso inicial e a lealdade.
 
-- **Qualidade Pragmática**: Com média +1.2,a qualidade Pragmática também é muito forte. Com uma média acima de +1, o sistema é percebido como eficaz, eficiente, confiável e razoavelmente fácil de entender. Este resultado demonstra que o sistema cumpre sua função principal com excelência, permitindo que os usuários completem suas tarefas de forma rápida e segura.
+- **Qualidade Pragmática**: Com média +1.2,a qualidade pragmática também é muito forte. Com uma média acima de +1, o sistema é percebido como eficaz, eficiente, confiável e razoavelmente fácil de entender. Este resultado demonstra que o sistema cumpre sua função principal com excelência, permitindo que os usuários completem suas tarefas de forma rápida e segura.
 
-- **Qualidade Hedônica**: Com média +0.5, a Qualidade Hedônica apresenta a menor pontuação entre as três, situando-se em um nível moderadamente positivo, perto de +0.5. Embora ainda esteja na zona positiva, essa média relativamente baixa é um indicativo de que o sistema falha em ser percebido como inovador ou altamente estimulante, em comparação com suas qualidades pragmáticas e sua atração geral.
+- **Qualidade Hedônica**: Com média +0.5, a qualidade Hedônica apresenta a menor pontuação entre as três, situando-se em um nível moderadamente positivo, perto de +0.5. Embora ainda esteja na zona positiva, essa média relativamente baixa é um indicativo de que o sistema falha em ser percebido como inovador ou altamente estimulante, em comparação com suas qualidades pragmáticas e sua atração geral.
 
 ## Gráfico de distribuição de respostas
 <img width="800" height="600" alt="Captura de tela 2025-09-28 164621" src="https://github.com/user-attachments/assets/50ff0b92-01eb-4b51-8224-273799d5a8e2" />
@@ -108,7 +108,7 @@ fortes barras verdes indica um consenso positivo, enquanto a mistura de cores ve
 
 1. #### Consenso Positivo e Maiores Forças 
 &ensp;Os itens abaixo mostram uma esmagadora preferência pela experiência positiva com notas 6 e 7, confirmando as maiores 
-forças do produto.
+forças do Miro
 
 - **Seguro/não seguro**: Possui a maior concentração de respostas positivas no verde escuro, com a menor proporção de notas
 negativas ou neutras. Isso reforça que a confiabilidade e a segurança são percebidas com consenso unânime e são o
@@ -120,15 +120,15 @@ maior ativo do sistema.
 - **Não interessante/interessante**: Forte concentração de respostas positivas. O sistema é altamente motivador e envolvente
 para a grande maioria.
 
-- **Amigável/não amigável**: Quase nenhuma resposta negativa e forte peso em 6 e 7. O produto é percebido como amigável com
+- **Amigável/não amigável**: Quase nenhuma resposta negativa e forte peso em 6 e 7. O sistema é percebido como amigável com
 alto consenso.
 
 2. #### Alto Desempenho
-&ensp;Estes itens também são fortes, mas com uma presença ligeiramente maior de respostas neutras (cinza):
+&ensp;Estes itens também são fortes, mas com uma presença ligeiramente maior de respostas neutras:
 
-- **Ineficiente/eficiente**: A maioria das respostas é positiva, confirmando a alta Eficiência.
+- **Ineficiente/eficiente**: A maioria das respostas é positiva, confirmando a alta eficiência.
 
-- **Desmotivante/motivante**: Maior parte positiva, validando o aspecto de Estimulação.
+- **Desmotivante/motivante**: Maior parte positiva, validando o aspecto de estimulação.
 
 - **imprático/prático**: Forte aprovação, indicando que o design é prático e organizado.
 
@@ -144,13 +144,13 @@ considera o sistema tão fácil de aprender quanto os demais. Isso valida a alta
 vista no gráfico de Escalas e aponta para um problema na curva de aprendizado para uma
 parte da base de usuários.
 
-- **complicado/fácil**: Similar ao item anterior, a área cinza (neutra) é significativa, sugerindo que o sistema é percebido como neutro em termos de complexidade por uma parcela considerável.
+- **complicado/fácil**: Similar ao item anterior, a área cinza é significativa, sugerindo que o sistema é percebido como neutro em termos de complexidade por uma parcela considerável.
 
 4. #### O Ponto Fraco com Alto Consenso 
 
 - **Inventivo/convencional**: Este item é o único onde as respostas negativas são visivelmente maiores e as respostas neutras
 são a maior categoria. Este é o único ponto onde o consenso se inclina para o lado negativo/neutro. A maioria dos usuários
-classifica o produto como neutro a convencional, o que valida o resultado de inovação muito baixa. O produto é visto como
+classifica o sistema como neutro a convencional, o que valida o resultado de inovação muito baixa. É visto como
 seguro e eficiente, mas não é inovador ou de ponta.
 
 5. #### Outros Itens Neutros/Fracos
@@ -158,7 +158,7 @@ seguro e eficiente, mas não é inovador ou de ponta.
 - **Usual/vanguarda**: A barra laranja tem uma presença notável, e o cinza domina. O sistema não é visto como "de ponta".
 
 - **Inferior/valioso**: Forte presença de respostas neutras. Embora a média seja positiva, os usuários não veem o
-valor do produto de forma tão enfática quanto sua atração.
+valor do sistema de forma tão enfática quanto sua atração.
 
 ## Gráfico Benchmarck
 
@@ -169,24 +169,25 @@ valor do produto de forma tão enfática quanto sua atração.
 1. #### Desempenho Excepcional
 &ensp;Três dimensões demonstram desempenho de elite, atingindo consistentemente as classificações "bom" ou "Excelente", e com intervalos de confiança estreitos, indicando alto consenso nas respostas:
 
-- **Eficiência**: Com média 1.55, esta é a principal força pragmática, atingindo o nível "Excelente". O produto é percebido como muito rápido, prático e organizado, permitindo que os usuários concluam tarefas com o mínimo de esforço.
+- **Eficiência**: Com média 1.55, esta é a principal força pragmática, atingindo o nível "Excelente". O sistema é percebido como muito rápido, prático e organizado, permitindo que os usuários concluam tarefas com o mínimo de esforço.
 
-- **Atratividade**: Com média 1.55, a Atratividade também atinge o nível "Excelente". O produto é altamente gostado, agradável e tem forte apelo emocional. O forte consenso nessa área é um ativo significativo para o engajamento.
+- **Atratividade**: Com média 1.55, a atratividade também atinge o nível "Excelente". O sistema é altamente gostado, agradável e tem forte apelo emocional. O forte consenso nessa área é um ativo significativo para o engajamento.
 
 - **Confiabilidade**: Com média 1.35, esta dimensão está solidamente na faixa "Bom". O sistema é visto como seguro e previsível, com o item "seguro" sendo o mais bem pontuado de toda a análise no gráfico.
 
 2. #### Desempenho Forte
 
-- **Estimulação**: Com média 1.05, a Estimulação se situa na faixa "Bom". Isso confirma que o produto é percebido como interessante.
+- **Estimulação**: Com média 1.05, a Estimulação se situa na faixa "Bom". Isso confirma que o sistema é percebido como interessante.
 
 3. #### Áreas Estratégicas para Foco 
 &ensp;Estas dimensões apresentam as maiores oportunidades de melhoria e as maiores incertezas indicadas pelas barras de erro mais longas:
 
-- **Perspicuidade**: com a média 0.95, situando-se em "Acima da média". A barra de erro é visivelmente longa, estendendo-se das faixas "Bom" até quase o limite de "Mal". Isso confirma a alta variância na percepção de perspicuidade. Embora a média seja boa, o produto tem um problema de experiência inconsistente. Alguns usuários acham o sistema muito fácil, enquanto outros lutam com a curva de aprendizado. O foco deve ser na redução dessa variância por meio de melhorias no onboarding para garantir que todos os usuários atinjam o nível de perspicuidade percebido pelos mais experientes.
+- **Perspicuidade**: com a média 0.95, situando-se em "Acima da média". A barra de erro é visivelmente longa, estendendo-se das faixas "Bom" até quase o limite de "Mal". Isso confirma a alta variância na percepção de perspicuidade. Embora a média seja boa, o sistema tem um problema de experiência inconsistente. Alguns usuários acham o sistema muito fácil, enquanto outros lutam com a curva de aprendizado. O foco deve ser na redução dessa variância por meio de melhorias no onboarding para garantir que todos os usuários atinjam o nível de perspicuidade percebido pelos mais experientes.
 
-- **Inovação**: Com a média: 0.30, situando-se em "Abaixo da média". Esta é a principal fraqueza do produto. O valor está muito próximo de zero e na faixa amarela/laranja do benchmark, indicando que o produto é percebido como convencional, não inventivo e não de vanguarda. Essa fraqueza compromete o apelo hedônico a longo prazo.
+- **Inovação**: Com a média: 0.30, situando-se em "Abaixo da média". Esta é a principal fraqueza do sistema. O valor está muito próximo de zero e na faixa amarela/laranja do benchmark, indicando que o sistema é percebido como convencional, não inventivo e não de vanguarda. Essa fraqueza compromete o apelo hedônico a longo prazo.
 
 ## Conclusão
-&ensp;O Miro é um produto maduro e confiável, que entrega uma experiência de usuário acima da média na maioria dos quesitos. Para manter sua liderança e garantir a satisfação futura, a estratégia deve ser clara: capitalizar a confiabilidade e eficiência conquistadas, enquanto se concentra em introduzir inovações tangíveis para superar a percepção de ser convencional. O desafio do Miro é transformar a sua forte Qualidade Pragmática em um forte argumento de Qualidade Hedônica no futuro.
+&ensp;O Miro é um sistema maduro e confiável, que entrega uma experiência de usuário acima da média na maioria dos quesitos. Para manter sua liderança e garantir a satisfação futura, a estratégia deve ser clara: capitalizar a confiabilidade e eficiência conquistadas, enquanto se concentra em introduzir inovações tangíveis para superar a percepção de ser convencional. O desafio do Miro é transformar a sua forte Qualidade Pragmática em um forte argumento de Qualidade Hedônica no futuro.
 
 </div>
+
