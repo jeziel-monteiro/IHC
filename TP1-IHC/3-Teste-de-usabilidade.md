@@ -56,4 +56,5 @@ A duração média das sessões ficou dentro do esperado, permitindo observar ta
     - Autor: Jonathan Gonzaga Galdino
     - Disponivel em:[ Questionario UEQ e SUS](https://github.com/jhonatan-gonzaga/questionario-UEQ-SUS)
 
-# 
+# 4.Registro por Tarefa e por Participante
+- [Registro por Tarefa e por Participante](https://www.notion.so/27bf84ef8262802498d3df08c7438963?v=27bf84ef826280079e4e000c0732d7e2&source=copy_link)
