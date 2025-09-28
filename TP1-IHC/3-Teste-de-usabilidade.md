@@ -1,8 +1,8 @@
 # 1.Teste de usabilidade
 ## 1.1 Descrição do Produto
-Produto: Miro (Exclusivamente a versão para navegadores)
-Ambiente: Desktops com Windows (10 e 11)
-Navegadores: Opera GX, Microsoft Edge e Google Chrome
+- Produto: Miro (Exclusivamente a versão para navegadores)
+- Ambiente: Desktops com Windows (10 e 11)
+- Navegadores: Opera GX, Microsoft Edge e Google Chrome
 
 ## 1.2 Descrição da atividade realizada
 Os testes de usabilidade foram conduzidos de forma estruturada, iniciando com um teste piloto para validar o protocolo, ajustar a clareza das tarefas e confirmar a adequação dos instrumentos de coleta. Após esses ajustes, foram realizadas sessões com oito participantes externos ao grupo. 7 testes foram realizados de forma presencial e 1 teste foi realizado de forma remota: cada um cumprindo no mínimo dez tarefas relacionadas ao uso do site Miro.
@@ -18,7 +18,25 @@ A duração média das sessões ficou dentro do esperado, permitindo observar ta
 # 2.Teste Piloto
 ## 2.1 Participante
 - P00: Felipe Pessoa de Oliveira
-## 2.1 Informações do Teste
+## 2.2 Informações do Teste
 - Local: UFAM - Sala de Estudos - Bloco E
+- Formato: Presencial
 - 21/08/2025
 - [Comprovação do Teste](https://drive.google.com/drive/folders/1_arZjqliuUnjPKXKDv4dkoC2UYaCK15N?usp=drive_link)
+
+# 3.Teste Oficial
+## 3.1 Participantes
+- P01 - Vicktor Eduardo Almeida Pinheiro
+- P02 - Júlio Augusto de Almeida Ferreira Júnior
+- P03 - Isabely Cristina Barbosa Beça
+- P04 - Antônio de Oliveira Mendes
+- P05 - Eduardo Yuri Cavalcante de Souza
+- P06 - Kaio Pessoa de Oliveira
+- P07 - Luan Batalha Pinto
+- P08 - Thiago Vasconcelos Assunção
+
+## 3.2 Informações dos Testes
+- Data: 21/08/2025 a 23/09/2025
+- Local: UFAM - Lab 313, Bloco D - Sala de Estudos, Bloco E - Residência (P03)
+- Formato: Presencial e Remoto (P05)
+- [Comprovação dos Testes](https://drive.google.com/drive/folders/1KQDfRNRy9EFN1pQ7nx09EI8VBLk0tDsl?usp=drive_link)
