@@ -42,7 +42,6 @@ A duração média das sessões ficou dentro do esperado, permitindo observar ta
 - Local: UFAM - Lab 313, Bloco D - Sala de Estudos, Bloco E - Residência (P03)
 - Formato: Presencial e Remoto (P05)
 - [Comprovação dos Testes](https://drive.google.com/drive/folders/1KQDfRNRy9EFN1pQ7nx09EI8VBLk0tDsl?usp=drive_link)
-- [Comprovação dos Resultados (UEQ e SUS)](https://drive.google.com/drive/folders/1BZZ0X7KGVSXJTGztfw8Qb0TGevWJA07X?usp=sharing)
 
 ## 3.3 Outras informações
 - Duração das Sessões: Em média 36 minutos
@@ -78,17 +77,36 @@ A duração média das sessões ficou dentro do esperado, permitindo observar ta
 - [Resumo por Participante - P08](https://www.notion.so/27bf84ef8262809c85bef0b829576ad1?v=27bf84ef82628126b507000c6a19d603&source=copy_link)
 
 ## 4.3 Consolidação por Tarefa
-- [Consolidação por Tarefa - T1]()
-- [Consolidação por Tarefa - T2]()
-- [Consolidação por Tarefa - T3]()
-- [Consolidação por Tarefa - T4]()
-- [Consolidação por Tarefa - T5]()
-- [Consolidação por Tarefa - T6]()
-- [Consolidação por Tarefa - T7]()
-- [Consolidação por Tarefa - T8]()
-- [Consolidação por Tarefa - T9]()
-- [Consolidação por Tarefa - T10]()
-- [Consolidação por Tarefa - T11]()
-- [Consolidação por Tarefa - T12]()
-- [Consolidação por Tarefa - T13]()
-- [Consolidação por Tarefa - T14]()
+- [Consolidação por Tarefa - T1](https://www.notion.so/27bf84ef82628075a450cee909c222b3?v=27bf84ef8262803dac53000c3b95eb41&source=copy_link)
+- [Consolidação por Tarefa - T2](https://www.notion.so/27bf84ef8262806e8e3ee04aaa150262?v=27bf84ef82628154920a000c4aa6c10e&source=copy_link)
+- [Consolidação por Tarefa - T3](https://www.notion.so/27bf84ef826280edba8ff733e93b4da0?v=27bf84ef826281138ee0000cf159eba7&source=copy_link)
+- [Consolidação por Tarefa - T4](https://www.notion.so/27bf84ef826280f1b92dca3a233e7ae9?v=27bf84ef826281668732000c7a3b154c&source=copy_link)
+- [Consolidação por Tarefa - T5](https://www.notion.so/27bf84ef826280c69483e0a42c9a20cb?v=27bf84ef82628183a50a000ce8c94a1d&source=copy_link)
+- [Consolidação por Tarefa - T6](https://www.notion.so/27bf84ef8262805e8f3ff6430ce1550f?v=27bf84ef826281329c32000cfe988124&source=copy_link)
+- [Consolidação por Tarefa - T7](https://www.notion.so/27bf84ef826280638ecff2931cb0b993?v=27bf84ef826281bd88c8000c3b59d2f7&source=copy_link)
+- [Consolidação por Tarefa - T8](https://www.notion.so/27bf84ef8262803eb146effd5dbe798c?v=27bf84ef8262815e9074000c5a78ea9c&source=copy_link)
+- [Consolidação por Tarefa - T9](https://www.notion.so/27bf84ef826280838d7fe63d616f9745?v=27bf84ef82628167a484000c9b6b8903&source=copy_link)
+- [Consolidação por Tarefa - T10](https://www.notion.so/27bf84ef826280229461e672b2bce32a?v=27bf84ef8262812ca6c0000c23fb517b&source=copy_link)
+- [Consolidação por Tarefa - T11](https://www.notion.so/27bf84ef82628011b869eb49e9b36658?v=27bf84ef8262812096c3000c2dc1cbf3&source=copy_link)
+- [Consolidação por Tarefa - T12](https://www.notion.so/27bf84ef82628031b0e2c1c68ea1cbcc?v=27bf84ef8262815e901f000c1dd885a1&source=copy_link)
+- [Consolidação por Tarefa - T13](https://www.notion.so/27bf84ef8262807e8875e9f6052c3914?v=27bf84ef826281678728000ca1e8257c&source=copy_link)
+- [Consolidação por Tarefa - T14](https://www.notion.so/27bf84ef8262801d8125e857c2a88b36?v=27bf84ef8262813f8f6c000c76c9db3b&source=copy_link)
+
+## 4.4 Resultado UEQ e SUS
+- [SUS](https://drive.google.com/drive/folders/1ppVZspKT0AzpUBxjfGzx4cRBJEHy9lJg?usp=sharing)
+- [UEQ](https://drive.google.com/drive/folders/18CyTr9QO9ENB0kTgQSaoskxzrYztI2h4?usp=drive_link)
+
+# 5. Relato dos Resultados
+## 5.1 Análise Quantitativa e SUS
+- Análise Quantitativa: Com base em todo o teste, houve uma taxa de Sucesso de 63,34%, uma taxa de pedidos de ajuda de 15,20% e uma taxa de falhas de 21,46%. Além de uma média de 1484 segundos para realização de todas as tarefas com uma média de erros de 1,07 e de ajuda de 0,23, ambos por participante.
+- SUS (Média Geral): No total, teve um Score de 62,1. Interpretando esse resultado, estamos entre 50 e 70, o que indica usabilidade aceitável com espaço para melhorias.
+
+## 5.2 Perguntas Abertas:
+1. O que você mais gostou? Por quê?
+2. O que mais dificultou o uso? Em que momento?
+3. Se pudesse mudar uma coisa, o que mudaria?
+- [Tabela — Mapeamento de respostas abertas a fatores de usabilidade](https://www.notion.so/27bf84ef82628010b72adf6fadcd446c?v=27bf84ef826280718302000c26bf9f4a&source=copy_link)
+
+# 6. Análise dos Objetivos
+
+# 7. Conclusão
