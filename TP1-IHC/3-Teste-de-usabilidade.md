@@ -15,6 +15,8 @@ Ao final de cada sessão, foi aplicado o questionário SUS (System Usability Sca
 
 A duração média das sessões ficou dentro do esperado, permitindo observar tanto aspectos objetivos (taxa de sucesso, tempo, erros) quanto subjetivos (percepção dos participantes). No geral, os testes possibilitaram identificar barreiras de navegação, momentos de hesitação e elementos que impactaram a experiência de uso, gerando insumos relevantes para análise e melhoria do produto.
 
+## 1.3 Objetivos do Teste
+
 # 2.Teste Piloto
 ## 2.1 Participante
 - P00: Felipe Pessoa de Oliveira
@@ -40,11 +42,18 @@ A duração média das sessões ficou dentro do esperado, permitindo observar ta
 - Local: UFAM - Lab 313, Bloco D - Sala de Estudos, Bloco E - Residência (P03)
 - Formato: Presencial e Remoto (P05)
 - [Comprovação dos Testes](https://drive.google.com/drive/folders/1KQDfRNRy9EFN1pQ7nx09EI8VBLk0tDsl?usp=drive_link)
+- [Comprovação dos Resultados (UEQ e SUS)](https://drive.google.com/drive/folders/1BZZ0X7KGVSXJTGztfw8Qb0TGevWJA07X?usp=sharing)
 
-## 3.3 Equipamentos Necessários
+## 3.3 Outras informações
+- Duração das Sessões: Em média 36 minutos
+- Perfil dos Participantes: Buscamos primordialmente pessoas conhecidas do nosso curso, que não tiveram nenhum contato com a plataforma escolhida, em seguida, conversamos com os participantes para verificar sua disponibilidade. Optamos por realizar os testes com amigos e conhecidos que também não tiveram contato com a plataforma e que tinham disponibilidade para realizar os testes.
+
+## 3.4 Equipamentos Necessários
 - 1 Notebook 
 - 1 Celular com Cronômetro
 - Planilhas manuais para marcar as informações obtidas nos testes
 - Questionário SUS e UEQ Digital
     - Autor: Jonathan Gonzaga Galdino
     - Disponivel em:[ Questionario UEQ e SUS](https://github.com/jhonatan-gonzaga/questionario-UEQ-SUS)
+
+# 
