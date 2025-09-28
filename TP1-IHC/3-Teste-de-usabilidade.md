@@ -40,3 +40,11 @@ A duração média das sessões ficou dentro do esperado, permitindo observar ta
 - Local: UFAM - Lab 313, Bloco D - Sala de Estudos, Bloco E - Residência (P03)
 - Formato: Presencial e Remoto (P05)
 - [Comprovação dos Testes](https://drive.google.com/drive/folders/1KQDfRNRy9EFN1pQ7nx09EI8VBLk0tDsl?usp=drive_link)
+
+## 3.3 Equipamentos Necessários
+- 1 Notebook 
+- 1 Celular com Cronômetro
+- Planilhas manuais para marcar as informações obtidas nos testes
+- Questionário SUS e UEQ Digital
+    - Autor: Jonathan Gonzaga Galdino
+    - Disponivel em:[ Questionario UEQ e SUS](https://github.com/jhonatan-gonzaga/questionario-UEQ-SUS)
