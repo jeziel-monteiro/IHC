@@ -36,7 +36,7 @@ percebem o Miro como eficiente e rápido.
 - **claro/confuso**, **prático/imprático** e **organizado/desorganizado** têm pontuações entre +1 e +1.5, 
 indicando que o sistema é percebido como claro, prático e organizado.
 
-- **fácil de aprender/difícil de aprender** e **compreensível/não compreensível** também estão acima de +1.
+- **fácil de aprender/difícil de aprender** e **compreensível/não compreensível** também estão acima de +0.5.
 
 ### Áreas de Atenção
 &ensp;Embora a maioria dos resultados seja positiva, alguns itens merecem atenção por terem valores médios mais baixos:
@@ -44,7 +44,7 @@ indicando que o sistema é percebido como claro, prático e organizado.
 1. #### Inovação 
 &ensp;O único item com pontuação negativa é:
 
-- **inventivo/convencional**: Com um valor de aproximadamente -0.7, sugere que os usuários tendem a vê-lo como 
+- **inventivo/convencional**: Com um valor de -1.0, sugere que os usuários tendem a vê-lo como 
 mais convencional do que inventivo. Esta é a principal área de fraqueza do sistema em termos de percepção de
 Novidade/Inovação.Embora a Novidade geral seja alta em outros itens como "criativo/chato", este ponto
 específico indica uma falta de "inventividade" em comparação com as altas expectativas.
@@ -52,9 +52,7 @@ específico indica uma falta de "inventividade" em comparação com as altas exp
 2. #### Outros Pontos Próximos de Zero 
 &ensp;Estes são os itens menos impactantes positivamente na experiência geral:
 
-- **Vanguarda/usual**: Valor médio próximo de +0.2. Isso significa que o sistema é percebido como neutro neste quesito, não sendo fortemente visto como "de ponta", mas também não sendo apenas "usual".
-
-- **Valioso/inferior**: Valor levemente positivo, próximo de +0.5. Embora positivo, é o ponto de menor aspecto, sugerindo que o valor percebido, embora bom, não é tão forte quanto a atração ou estimulação.
+- **Vanguarda/usual**: Valor médio próximo de -0.2. Isso significa que o sistema é percebido como neutro neste quesito, não sendo fortemente visto como "de ponta", mas também não sendo apenas "usual".
 
 ## Gráfico de média e variância das escalas
 
@@ -169,15 +167,15 @@ valor do sistema de forma tão enfática quanto sua atração.
 1. #### Desempenho Excepcional
 &ensp;Três dimensões demonstram desempenho de elite, atingindo consistentemente as classificações "bom" ou "Excelente", e com intervalos de confiança estreitos, indicando alto consenso nas respostas:
 
-- **Eficiência**: Com média 1.55, esta é a principal força pragmática, atingindo o nível "Excelente". O sistema é percebido como muito rápido, prático e organizado, permitindo que os usuários concluam tarefas com o mínimo de esforço.
+- **Eficiência**: Com média 1.50, esta é a principal força pragmática, atingindo o nível "Excelente". O sistema é percebido como muito rápido, prático e organizado, permitindo que os usuários concluam tarefas com o mínimo de esforço.
 
 - **Atratividade**: Com média 1.55, a atratividade também atinge o nível "Excelente". O sistema é altamente gostado, agradável e tem forte apelo emocional. O forte consenso nessa área é um ativo significativo para o engajamento.
 
-- **Confiabilidade**: Com média 1.35, esta dimensão está solidamente na faixa "Bom". O sistema é visto como seguro e previsível, com o item "seguro" sendo o mais bem pontuado de toda a análise no gráfico.
+- **Confiabilidade**: Com média 1.30, esta dimensão está solidamente na faixa "Bom". O sistema é visto como seguro e previsível, com o item "seguro" sendo o mais bem pontuado de toda a análise no gráfico.
 
 2. #### Desempenho Forte
 
-- **Estimulação**: Com média 1.05, a Estimulação se situa na faixa "Bom". Isso confirma que o sistema é percebido como interessante.
+- **Estimulação**: Com média 1.0, a Estimulação se situa na faixa "Bom". Isso confirma que o sistema é percebido como interessante.
 
 3. #### Áreas Estratégicas para Foco 
 &ensp;Estas dimensões apresentam as maiores oportunidades de melhoria e as maiores incertezas indicadas pelas barras de erro mais longas:
@@ -190,4 +188,5 @@ valor do sistema de forma tão enfática quanto sua atração.
 &ensp;O Miro é um sistema maduro e confiável, que entrega uma experiência de usuário acima da média na maioria dos quesitos. Para manter sua liderança e garantir a satisfação futura, a estratégia deve ser clara: capitalizar a confiabilidade e eficiência conquistadas, enquanto se concentra em introduzir inovações tangíveis para superar a percepção de ser convencional. O desafio do Miro é transformar a sua forte Qualidade Pragmática em um forte argumento de Qualidade Hedônica no futuro.
 
 </div>
+
 
