@@ -18,7 +18,14 @@
 &ensp; A duração média das sessões ficou dentro do esperado, permitindo observar tanto aspectos objetivos (taxa de sucesso, tempo, erros) quanto subjetivos (percepção dos participantes). No geral, os testes possibilitaram identificar barreiras de navegação, momentos de hesitação e elementos que impactaram a experiência de uso, gerando insumos relevantes para análise e melhoria do produto.
 
 ## 1.3 Objetivos do Teste
+- 1 - Avaliar como os usuários reagem ao primeiro contato com a plataforma.
+- 2 - Analisar como os usuários se locomovem na plataforma, com o auxílio do reconhecimento por miniatura.
+- 3 - Analisar como a I.A do sistema pode ajudar os usuários.
+- 4 - Avaliar a utilização dos recursos (como mapa mentais e criação dos quadros) do sistema pelos usuários.
+- 5 - Avaliar a eficiência do sistema a partir da utilização dos usuários, observando processos como lentidão e etc.
 
+## 1.4 Tarefas
+- [Tarefas (utilizadas nos testes)](https://drive.google.com/file/d/19pG0iK3bKVSXVZDxJz1WmxbaSg9hdyjK/view?usp=sharing)
 
 # 2.Teste Piloto
 ## 2.1 Participante
@@ -111,5 +118,13 @@
 - [Tabela — Mapeamento de respostas abertas a fatores de usabilidade](https://www.notion.so/27bf84ef82628010b72adf6fadcd446c?v=27bf84ef826280718302000c26bf9f4a&source=copy_link)
 
 # 6. Análise dos Objetivos
+| Número | Objetivo | Resultado | Observações |
+| :----: | :------ | :------ | :---------- |
+| **1** | Analisar como os usuários reagem ao primeiro contato com a plataforma. | **Sucesso** | Por se tratar de um sistema novo, os usuários iniciantes se sentiram confusos e desconectados. Contudo, após um período de uso e observação, começaram a identificar padrões e familiarizar-se com a interface. |
+| **2** | Analisar como os usuários se locomovem na plataforma, com o auxílio do reconhecimento por miniatura. | **Sucesso com Ressalvas** | Com o auxílio da Heurística de Visibilidade do Sistema, os usuários conseguiram navegar sem grandes dificuldades. No entanto, houve um desvio para procurar diversos recursos, indicando que a navegação inicial pode ser aprimorada. |
+| **3** | Analisar como a I.A. do sistema pode ajudar os usuários. | **Sucesso** | Uma das funções mais bem avaliadas. A Inteligência Artificial (IA) demonstrou ser altamente produtiva, respondendo com facilidade às solicitações dos usuários e auxiliando na solução de problemas. |
+| **4** | Avaliar a utilização dos recursos (como mapa mentais e criação de quadros) do sistema pelos usuários. | **Sucesso** | A grande variedade de recursos disponíveis se revelou um dos principais fatores de engajamento. O amplo leque de ferramentas permite a criação de conteúdo diversificado, resultando em uma grande quantidade de materiais produzidos pelos usuários. |
+| **5** | Avaliar a eficiência do sistema a partir da utilização dos usuários, observando processos como enviar/editar, etc. | **Sucesso com Ressalvas** | O sistema, mesmo sendo utilizado pela primeira vez, demonstrou ser responsivo aos comandos, atingindo um nível de eficácia notável. Usuários que perseveraram no uso aprovaram a experiência. |
 
 # 7. Conclusão
+
