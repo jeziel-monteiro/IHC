@@ -128,3 +128,9 @@
 
 # 7. Conclusão
 
+&ensp; O sistema Miro, em sua essência, segue à risca suas diversas funcionalidades. Com uma pontuação ("score") de aproximadamente 62, ele recebeu uma avaliação de usabilidade aceitável, mas com espaço para melhorias, conforme comprovam as informações a seguir:
+
+- O sistema, com suas diversas funcionalidades, oferece um conjunto inovador de ideias e uma grande variedade de projetos para realizar, indo desde pequenos quadros editáveis até enormes fluxogramas. O Miro ainda recompensa toda essa variedade com uma interface minimalista e de fácil entendimento, conectando-se assim com o usuário. Isso permite uma maior rapidez na execução de diversas funções e cria o sentimento de querer voltar a utilizar o sistema mais vezes
+- Em contrapartida, apesar dos diversos elementos positivos, o sistema ainda apresenta falhas em alguns detalhes. Embora tenha uma interface minimalista, a quantidade de objetos e menus dispostos na tela leva o usuário a se sentir confuso sobre suas ações. Isso se torna evidente nas respostas dos usuários à pergunta 2 ("O que mais dificultou o uso?"). Além disso, o sistema tampouco oferece ajuda adequada aos usuários, principalmente em relação a pedidos de socorro ou solução de dúvidas, o que torna a experiência mais dificultosa e menos prazerosa.
+
+&ensp; Apesar desses desafios, o sistema mostrou-se relevante em suas funcionalidades, o que o deixa em destaque se comparado a outros sistemas com funções semelhantes. Os problemas detectados podem ser resolvidos em versões futuras e, mesmo com essas questões, o Miro já apresenta uma base sólida e próspera para o futuro.
