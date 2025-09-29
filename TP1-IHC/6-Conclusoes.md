@@ -6,6 +6,9 @@
 
 ## Heloyse Heloá Serrão Viana
 
+&ensp; No decorrer do desenvolvimento deste trabalho, cujo objeto de avaliação foi o sistema MIRO, tive a oportunidade de adquirir um aprendizado profundo e muito enriquecedor sobre a avaliação de sistemas interativos. As diferentes etapas exigiram bastante análise crítica, organização das informações e aplicação cuidadosa dos métodos, tornando o processo desafiador, mas também enriquecedor. Trabalhar com o sistema Miro me fez perceber, de maneira prática, como cada detalhe da interface pode influenciar a eficiência, a satisfação e a compreensão do usuário. Essa experiência ampliou minha compreensão sobre a relevância de projetar soluções centradas nas pessoas e reforçou, em minha perspectiva, a importância da interação humano-computador como elemento essencial para a qualidade de qualquer sistema.
+</div>
+
 
 ## Jeziel Monteiro Pessoa
 
@@ -32,4 +35,5 @@
 
 &ensp;Aprendi muita coisa com a proposta do trabalho, pude colocar em prática os métodos estudados em sala como a heurísticas de Nielsen, também tive o primeiro contato com a plataforma Notion no qual pretendo utilizar em projetos futuros. E eu acredito que o trabalho prático contribuiu para uma melhor visão de oportunidades em que eu posso seguir na área da tecnologia.
 </div>
+
 
