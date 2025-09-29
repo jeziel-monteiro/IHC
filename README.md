@@ -23,7 +23,7 @@
 
 ## Sobre o Sistema
 
-- [Descrição do Sistema](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/1-Descricao-Sistema.md)
+- [1. Descrição do Sistema](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/1-Descricao-Sistema.md)
 
 ## Inspeção de Usabilidade
 
@@ -62,18 +62,18 @@
 
 - [2. Gráfico de Média e Variância das Escalas](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/4-Avalia%C3%A7%C3%A3o-UX.md)
 
-- [3. Gráfico de qualidades pragmáticas x hedônicas](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/4-Avalia%C3%A7%C3%A3o-UX.md)
+- [3. Gráfico de Qualidades Pragmáticas x Hedônicas](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/4-Avalia%C3%A7%C3%A3o-UX.md)
 
-- [4. Gráfico de distribuição de respostas](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/4-Avalia%C3%A7%C3%A3o-UX.md)
+- [4. Gráfico de Distribuição de Respostas](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/4-Avalia%C3%A7%C3%A3o-UX.md)
 
 ## Avaliação de Comunicabilidade
 
-- [Informações e Vídeos](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/5-Avaliacao-Comunicabilidade.md)
+- [1. Informações e Vídeos](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/5-Avaliacao-Comunicabilidade.md)
 
-- [Tabela de Etiquetagem](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/5-Avaliacao-Comunicabilidade.md)
+- [2. Tabela de Etiquetagem](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/5-Avaliacao-Comunicabilidade.md)
 
-- [Tabela de Tabulação e Interpretação dos Resultados](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/5-Avaliacao-Comunicabilidade.md)
+- [3. Tabela de Tabulação e Interpretação dos Resultados](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/5-Avaliacao-Comunicabilidade.md)
 
 ## Conclusões
 
-- [Reflexão Individual](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/6-Conclusoes.md)
+- [1. Reflexão Individual](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/6-Conclusoes.md)
