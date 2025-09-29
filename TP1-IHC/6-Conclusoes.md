@@ -22,6 +22,15 @@
 
 ## Pâmilla Nunes Santos
 
+&ensp; Durante a realização do TP1, um dos maiores desafios enfrentados foi na etapa de inspeção de problemas. Eu não tinha clareza sobre o que exatamente deveria procurar e, em alguns momentos, acabei confundindo problemas de usabilidade com problemas de comunicabilidade. Esse processo exigiu atenção e troca de ideias com o grupo para conseguir diferenciar melhor cada tipo de ocorrência.
+
+&ensp; Entre os métodos utilizados, o que mais me chamou atenção foram as Heurísticas de Nielsen. Apesar de serem bastante conhecidas, eu achei satisfatório conseguir relacionar problemas práticos com cada heurística. Essa experiência me fez compreender melhor como os princípios de usabilidade se aplicam em situações reais e como podem apoiar a análise crítica de um sistema.
+
+&ensp; Como lições aprendidas, destaco principalmente a importância do trabalho em equipe e do uso de ferramentas colaborativas online, como o Notion, que facilitaram a organização das tarefas. As reuniões do grupo também foram muito enriquecedoras, porque pude aprender com os colegas, observar diferentes pontos de vista e, assim, ampliar minha percepção sobre os problemas identificados.
+
+&ensp; Por fim, considero que esse trabalho contribuiu bastante para o meu desenvolvimento em Interação Humano-Computador, pois me ajudou a entender melhor os métodos de avaliação e também a exercitar habilidades que vão além da teoria, como a colaboração em grupo e a análise crítica de sistemas interativos.
+</div>
+
 
 ## Pedro Jhevison Menezes de Souza
 
@@ -35,5 +44,6 @@
 
 &ensp;Aprendi muita coisa com a proposta do trabalho, pude colocar em prática os métodos estudados em sala como a heurísticas de Nielsen, também tive o primeiro contato com a plataforma Notion no qual pretendo utilizar em projetos futuros. E eu acredito que o trabalho prático contribuiu para uma melhor visão de oportunidades em que eu posso seguir na área da tecnologia.
 </div>
+
 
 
