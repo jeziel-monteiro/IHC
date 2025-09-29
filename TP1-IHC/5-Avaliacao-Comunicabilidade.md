@@ -1,21 +1,23 @@
+<div align="justify">
+
 # Quarta Avaliação – Comunicabilidade (MAC)
 
 ---
 
-## 📌 Identificação
-- **Usuário 1 (U1):** Marcos de Oliveira da Silva  
-- **Usuário 2 (U2):** Luan dos Santos da Silva  
-- **Links dos vídeos (YouTube – não listado/privado):**  
+## Identificação
+**Usuário 1 (U1):** Marcos de Oliveira da Silva  
+**Usuário 2 (U2):** Luan dos Santos da Silva  
+**Links dos vídeos (YouTube – não listado/privado):**  
   - U1: [https://youtu.be/uE_ryWlBK4w](https://youtu.be/uE_ryWlBK4w)  
   - U2: [https://youtu.be/KF_DZeV9q5U](https://youtu.be/KF_DZeV9q5U)  
 
 ---
 
 ## Informações do Teste
-- **Local do teste:** UFAM - Bloco D, Laboratório 307  
-- **Formato:** Presencial  
-- **Data:** 25/09/2025  
-- **Equipamentos necessários:** Microfone, Celular, Notebook  
+**Local do teste:** UFAM - Bloco D, Laboratório 307  
+**Formato:** Presencial  
+**Data:** 25/09/2025  
+**Equipamentos necessários:** Microfone, Celular, Notebook  
 
 ---
 
@@ -72,21 +74,52 @@ A tabulação complementa a análise qualitativa feita com a etiquetagem, oferec
 
 ---
 
-## Análise Final
+## Análise Final  
 
-Com base na tabulação:  
+Com base nos dados coletados por meio da etiquetagem e da tabulação quantitativa, é possível identificar **padrões claros de ruptura na comunicabilidade** entre os usuários e o sistema avaliado. As etiquetas mais frequentes, especialmente **“Cadê?”**, indicam que **a visibilidade dos elementos e funções está insuficiente**, prejudicando a percepção imediata dos recursos disponíveis. Isso sugere falhas na **arquitetura da informação** e no **design de affordances**.
 
-- A etiqueta mais recorrente foi **“Cadê?”** (8 ocorrências, principalmente na T2). Isso indica **problemas de localização de elementos** na interface, sugerindo falhas de visibilidade ou organização.  
-- **“Onde estou?”** aparece em 3 ocorrências (T2, T3, T11), revelando **confusão de contexto** durante a navegação.  
-- Houve ocorrências pontuais de **“Socorro”**, **“Assim não dá”**, **“Epa!”**, e **“Pra mim está bom”**, mostrando diferentes tipos de ruptura de comunicação: desde a necessidade de ajuda externa até desistência parcial ou falsa sensação de conclusão.  
-- Etiquetas como **“Vai de outro jeito”**, **“Desisto”** e **“E agora?”** apareceram pouco (1 ou 2 vezes), mas são sinais de **frustração em tarefas específicas** (como T3, T5 e T8).  
-- As tarefas mais problemáticas foram **T2, T3 e T5**, que concentraram múltiplas rupturas.  
+A ocorrência recorrente de **“Onde estou?”** reforça que há **confusão de contexto e de navegação**, possivelmente causada por **mudanças bruscas de interface** ou **feedbacks pouco evidentes**. Essa situação aumenta a carga cognitiva do usuário, pois ele precisa reconstruir mentalmente onde está e para onde pode ir — um ponto crítico para sistemas interativos.
 
-**Conclusão:**  
-O sistema apresenta falhas principalmente de **visibilidade de comandos** e de **clareza de navegação**. Há confusão em tarefas críticas (T2 e T3) e sinais de que os usuários recorrem a soluções alternativas ou pedem ajuda, comprometendo a experiência.  
+As etiquetas pontuais **“Socorro!”, “Assim não dá” e “Pra mim está bom”** evidenciam outros tipos de rupturas:  
+- Dependência de ajuda externa para concluir tarefas (falta de instruções contextuais ou tooltips);  
+- Caminhos improdutivos que só são percebidos tardiamente;  
+- Falsa sensação de sucesso, possivelmente por ausência de feedback claro após a ação.  
 
-Recomenda-se:  
-- **Melhorar a sinalização de funções** para reduzir a etiqueta “Cadê?”.  
-- **Fornecer feedback mais claro** nas interações para evitar “Ué, o que houve?” e “Pra mim está bom”.  
-- **Revisar a organização da interface** para diminuir confusões de contexto.  
-- **Oferecer suporte contextual** (tooltips, mensagens claras) para reduzir a necessidade de “Socorro!”.  
+Tarefas como **T2, T3 e T5** concentraram mais ocorrências de rupturas, sugerindo que essas etapas contêm **elementos ou fluxos críticos que precisam ser redesenhados**. O fato de usuários tentarem caminhos alternativos ou desistirem reforça a necessidade de **simplificar processos** e **deixar a solução prevista mais evidente**.
+
+---
+
+### 🔍 Interpretação Global  
+O sistema não apenas apresenta **problemas pontuais de usabilidade**, mas também **lacunas na comunicação do “contrato de interação”** — ou seja, o entendimento implícito entre projetista e usuário sobre como o sistema deveria funcionar. Em termos da Engenharia Semiótica, o **“metamensagem” do designer** não está clara para o usuário em vários pontos do fluxo.
+
+---
+
+### 💡 Recomendações Estratégicas  
+1. **Reforçar visibilidade e sinalização:**  
+   - Inserir rótulos mais descritivos e ícones consistentes.  
+   - Utilizar cores, contrastes e agrupamentos para destacar ações importantes.  
+
+2. **Fornecer feedback imediato e inequívoco:**  
+   - Exibir confirmações visuais ou sonoras após ações críticas.  
+   - Mostrar indicadores de progresso para reduzir incerteza.  
+
+3. **Aprimorar o contexto e a navegação:**  
+   - Adotar breadcrumbs ou mapas visuais do fluxo para o usuário saber onde está.  
+   - Padronizar menus e nomenclaturas.  
+
+4. **Suporte contextual integrado:**  
+   - Inserir tooltips, tutoriais rápidos ou mensagens inline.  
+   - Disponibilizar ajuda contextual sem sair do fluxo principal.  
+
+5. **Simplificação e consistência nas tarefas mais críticas (T2, T3 e T5):**  
+   - Reduzir número de cliques.  
+   - Tornar a ação principal mais evidente.  
+   - Prevenir caminhos improdutivos com validações antecipadas.  
+
+---
+
+### Conclusão
+O conjunto de dados revela que **os principais problemas de comunicabilidade do sistema estão ligados à visibilidade dos elementos, clareza de contexto e feedback insuficiente**. Essas falhas comprometem a fluidez da interação, aumentam a carga cognitiva do usuário e podem levar à frustração ou desistência.  
+Com intervenções direcionadas — especialmente **no design de navegação, na sinalização dos comandos e no suporte contextual** — é possível reduzir significativamente as rupturas identificadas, elevando a qualidade da experiência e a satisfação dos usuários.
+
+</div>
