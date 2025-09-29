@@ -21,16 +21,59 @@
 - Andrey Antonio de Oliveira Rodrigues
 
 
-## Etapas do Processo
+## Sobre o Sistema
 
 - [Descrição do Sistema](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/1-Descricao-Sistema.md)
 
-- [Inspeção de Usabilidade](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/2-Inspecao-Usabilidade.md)
+## Inspeção de Usabilidade
 
-- [Teste de Usabilidade](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/3-Teste-de-usabilidade.md)
+- [1. Detecção](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/2-Inspecao-Usabilidade.md)
 
-- [Avaliação-UX](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/4-Avalia%C3%A7%C3%A3o-UX.md)
+- [2. Coleção](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/2-Inspecao-Usabilidade.md)
 
-- [Avaliação de Comunicabilidade](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/5-Avaliacao-Comunicabilidade.md)
+- [3. Discriminação](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/2-Inspecao-Usabilidade.md)
 
-- [Conclusões](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/6-Conclusoes.md)
+- [4. Relato dos Resultados](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/2-Inspecao-Usabilidade.md)
+
+## Teste de Usabilidade
+
+- [1. Descrição do Produto e das Atividades](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/3-Teste-de-usabilidade.md)
+
+- [2. Objetivo do Teste](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/3-Teste-de-usabilidade.md)
+
+- [3. Teste Piloto](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/3-Teste-de-usabilidade.md)
+
+- [4. Teste Oficial](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/3-Teste-de-usabilidade.md)
+
+- [5. Registro por Tarefa e por Participante](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/3-Teste-de-usabilidade.md)
+
+- [6. Resumo por Participante](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/3-Teste-de-usabilidade.md)
+
+- [7. Consolidação por Tarefa](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/3-Teste-de-usabilidade.md)
+
+- [8. Resultados UEQ e SUS](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/3-Teste-de-usabilidade.md)
+
+- [9. Perguntas Abertas](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/3-Teste-de-usabilidade.md)
+
+
+## Avaliação UX
+
+- [1. Gráfico de Média por Itens](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/4-Avalia%C3%A7%C3%A3o-UX.md)
+
+- [2. Gráfico de Média e Variância das Escalas](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/4-Avalia%C3%A7%C3%A3o-UX.md)
+
+- [3. Gráfico de qualidades pragmáticas x hedônicas](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/4-Avalia%C3%A7%C3%A3o-UX.md)
+
+- [4. Gráfico de distribuição de respostas](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/4-Avalia%C3%A7%C3%A3o-UX.md)
+
+## Avaliação de Comunicabilidade
+
+- [Informações e Vídeos](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/5-Avaliacao-Comunicabilidade.md)
+
+- [Tabela de Etiquetagem](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/5-Avaliacao-Comunicabilidade.md)
+
+- [Tabela de Tabulação e Interpretação dos Resultados](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/5-Avaliacao-Comunicabilidade.md)
+
+## Conclusões
+
+- [Reflexão Individual](https://github.com/jeziel-monteiro/IHC/blob/main/TP1-IHC/6-Conclusoes.md)
