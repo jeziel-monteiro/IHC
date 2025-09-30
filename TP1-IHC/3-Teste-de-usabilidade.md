@@ -108,7 +108,7 @@
 
 # 5. Relato dos Resultados
 ## 5.1 Análise Quantitativa e SUS
-- Análise Quantitativa: Com base em todo o teste, houve uma taxa de Sucesso de 63,34%, uma taxa de pedidos de ajuda de 15,20% e uma taxa de falhas de 21,46%. Além de uma média de 1484 segundos para realização de todas as tarefas com uma média de erros de 1,07 e de ajuda de 0,23, ambos por participante.
+- Análise Quantitativa: Com base em todo o teste, houve uma taxa de Sucesso de 63,34%, uma taxa de sucesso com pedidos de ajuda de 15,20% e uma taxa de falhas de 21,46%. Além de uma média de 1484 segundos para realização de todas as tarefas com uma média de erros de 1,07 e de ajuda de 0,23, ambos por participante.
 - SUS (Média Geral): No total, teve um Score de 62,1. Interpretando esse resultado, estamos entre 50 e 70, o que indica usabilidade aceitável com espaço para melhorias.
 
 ## 5.2 Perguntas Abertas:
