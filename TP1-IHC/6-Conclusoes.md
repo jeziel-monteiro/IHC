@@ -47,12 +47,13 @@
 
 <div align="justify">
 
-## Sérgio Augusto Simões Da Silva
+## Sérgio Augusto Simões da Silva
 
 &ensp;Com relação aos desafios enfrentados das 4 partes do trabalho, tive dificuldade em detectar as heurísticas violadas dentro do sistema Miro, pois na inspeção de usabilidade, foi feito uma análise em que o sistema propõe, por meio de suas ferramentas e recursos, verificando os mínimos detalhes. No teste de usabilidade, o momento mais complicado para mim foi monitorar os participantes realizando o testes do Miro, já que eu tive que manter sempre em observação. Na avalição UX, por não compreender certos dados dos gráficos, recorri o uso de IA para obter melhor interpretação dos dados. E na avaliação de comunicabilidade, foi com a procura de equipamentos e um local para realizar as gravações.
 
-&ensp;Aprendi muita coisa com a proposta do trabalho, pude colocar em prática os métodos estudados em sala como a heurísticas de Nielsen, também tive o primeiro contato com a plataforma Notion no qual pretendo utilizar em projetos futuros. E eu acredito que o trabalho prático contribuiu para uma melhor visão de oportunidades em que eu posso seguir na área da tecnologia.
+&ensp;Aprendi muita coisa com a proposta do trabalho, pude colocar em prática os métodos estudados em sala como a heurísticas de Nielsen, também tive o primeiro contato com a plataforma Notion no qual pretendo utilizar em projetos futuros. E eu acredito que o trabalho prático contribuiu para ter uma visão mais ampla de oportunidades em que eu posso seguir na área da tecnologia.
 </div>
+
 
 
 
