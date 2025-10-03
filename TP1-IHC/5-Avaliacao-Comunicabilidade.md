@@ -5,8 +5,8 @@
 ---
 
 ## Identificação
-**Usuário 1 (U1):** Marcos de Oliveira da Silva  
-**Usuário 2 (U2):** Luan dos Santos da Silva  
+**Usuário 1 (U1):**  
+**Usuário 2 (U2):**   
 **Links dos vídeos (YouTube – não listado/privado):**  
   - U1: [https://youtu.be/uE_ryWlBK4w](https://youtu.be/uE_ryWlBK4w)  
   - U2: [https://youtu.be/KF_DZeV9q5U](https://youtu.be/KF_DZeV9q5U)  
@@ -123,4 +123,5 @@ As etiquetas pontuais **“Socorro!”, “Assim não dá” e “Pra mim está 
 Com intervenções direcionadas — especialmente **no design de navegação, na sinalização dos comandos e no suporte contextual** — é possível reduzir significativamente as rupturas identificadas, elevando a qualidade da experiência e a satisfação dos usuários.
 
 </div>
+
 
