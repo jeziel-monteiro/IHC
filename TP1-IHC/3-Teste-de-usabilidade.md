@@ -38,14 +38,14 @@
 
 # 3.Teste Oficial
 ## 3.1 Participantes
-- P01 - Vicktor Eduardo Almeida Pinheiro
-- P02 - Júlio Augusto de Almeida Ferreira Júnior
-- P03 - Isabely Cristina Barbosa Beça
-- P04 - Antônio de Oliveira Mendes
-- P05 - Eduardo Yuri Cavalcante de Souza
-- P06 - Kaio Pessoa de Oliveira
-- P07 - Luan Batalha Pinto
-- P08 - Thiago Vasconcelos Assunção
+- P01 
+- P02 
+- P03 
+- P04 
+- P05 
+- P06
+- P07 
+- P08 
 
 ## 3.2 Informações dos Testes
 - Data: 21/08/2025 a 23/09/2025
