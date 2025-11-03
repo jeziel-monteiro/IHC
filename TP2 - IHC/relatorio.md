@@ -68,6 +68,46 @@ As definições e os critérios da classe-alvo foram organizados da seguinte man
 
 # 4 - Descrição dos experimentos Weka
 
+Para avaliar a capacidade de diferentes algoritmos de aprendizado de máquina em classificar a comunicabilidade do sistema, foi desenhado um protocolo experimental utilizando o software Weka. Abaixo, toda a descrição:
+
+## 4.1. Ambiente e Conjunto de Dados
+Software: Weka.
+
+Conjunto de Dados: Foi utilizada a base sintética comunicabilidade_dados.arff, descrita na Seção 3, contendo 500 instâncias, 5 atributos preditores numéricos (Qtd_atividades, Tempo_gasto, Qtd_etiquetas, Num_ajudas, Qtd_erros) e 1 atributo-alvo nominal (comunicabilidade). 
+
+## 4.2. Algoritmos Selecionados
+Foram selecionados cinco algoritmos de classificação, cada um representando uma abordagem diferente de aprendizado, para testar distintas hipóteses sobre os dados:
+
+ZeroR (weka.classifiers.rules.ZeroR):
+
+Categoria: Regras (Baseline).
+
+Propósito: Servir como linha de base (baseline) de desempenho. Este modelo simplesmente prevê a classe majoritária (a "moda") presente nos dados de treino, ignorando todos os atributos.
+
+OneR (weka.classifiers.rules.OneR):
+
+Categoria: Regras (Simples).
+
+Propósito: Identificar qual dos cinco atributos, sozinho, possui o maior poder preditivo para a classe-alvo.
+
+J48 (weka.classifiers.trees.J48):
+
+Categoria: Árvores de Decisão (baseado no C4.5).
+
+Propósito: Verificar se a lógica de classificação, que foi baseada em regras de pontuação (Seção 2), poderia ser "redescoberta" por um algoritmo que naturalmente gera regras "Se-Então".
+
+IBk (weka.classifiers.lazy.IBk):
+
+Categoria: Baseado em Instâncias (k-Nearest Neighbors).
+
+Propósito: Avaliar a consistência e a separação dos grupos. Se instâncias da mesma classe (ex: "alta") estão numericamente "próximas" umas das outras, este modelo deve ter um bom desempenho.
+
+NaiveBayes (weka.classifiers.bayes.NaiveBayes):
+
+Categoria: Probabilístico (Bayesiano).
+
+Propósito: Testar a eficácia de um modelo estatístico que calcula a probabilidade de uma instância pertencer a uma classe com base nos perfis médios de cada atributo.
+
 # 5 - Resultados
 
 ### 5.2. Comparação dos Resultados - Validação das Regras Definidas
