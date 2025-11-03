@@ -3,7 +3,7 @@
 ## Objetivo
 <div align="justify">
 
-Este trabalho tem como objetivo central analisar e validar a aplicabilidade e a eficácia do fundamento da Comunicabilidade—conceito chave da Interação Humano-Computador (IHC) — por meio de técnicas de Classificação Supervisionada utilizando Machine Learning. A pesquisa utiliza uma base de dados sintética com atributos de esforço e tempo do usuário (Qtd_atividades, Qtd_erros, Tempo_gasto, etc.) para treinar algoritmos (como J48, OneR e IBk) na classificação da comunicabilidade em níveis Alta, Média ou Baixa, conforme regras de pontuação predefinidas. Os resultados experimentais, notavelmente a alta acurácia do algoritmo J48 (89.41%), demonstram que as regras de IHC definidas são logicamente consistentes e passíveis de serem "redescobertas" por modelos de aprendizado, validando quantitativamente os indicadores de usabilidade e sugerindo que a maior dificuldade dos modelos reside na inerente ambiguidade da classe "Média" de interação.
+&ensp;Este trabalho tem como objetivo central analisar e validar a aplicabilidade e a eficácia do fundamento da Comunicabilidade—conceito chave da Interação Humano-Computador (IHC) — por meio de técnicas de Classificação Supervisionada utilizando Machine Learning. A pesquisa utiliza uma base de dados sintética com atributos de esforço e tempo do usuário (Qtd_atividades, Qtd_erros, Tempo_gasto, etc.) para treinar algoritmos (como J48, OneR e IBk) na classificação da comunicabilidade em níveis Alta, Média ou Baixa, conforme regras de pontuação predefinidas. Os resultados experimentais, notavelmente a alta acurácia do algoritmo J48 (89.41%), demonstram que as regras de IHC definidas são logicamente consistentes e passíveis de serem "redescobertas" por modelos de aprendizado, validando quantitativamente os indicadores de usabilidade e sugerindo que a maior dificuldade dos modelos reside na inerente ambiguidade da classe "Média" de interação.
 
 ## Curso
 - Engenharia de Software
@@ -12,7 +12,6 @@ Este trabalho tem como objetivo central analisar e validar a aplicabilidade e a 
 - 22552563 - Arthur Djan Pinheiro Pontes
 - 22550448 - Pâmilla Nunes Santos
 - 22552725 - Heloyse Heloá Serrão Viana
-- 22352323 - Pedro Jhevison Menezes de Souza
 - 22553221 - Jeziel Monteiro Pessoa
 - 22551470 - Sérgio Augusto Simões da Silva
 
@@ -32,10 +31,10 @@ Este trabalho tem como objetivo central analisar e validar a aplicabilidade e a 
 - [1.4 Sistema](https://github.com/jeziel-monteiro/IHC/blob/main/TP2%20-%20IHC/relatorio.md#14-sistema)
 
 ## 2 - Regras usadas para gerar a classe-alvo
-- [Tabela de pontuação por atributo](https://github.com/jeziel-monteiro/IHC/blob/main/TP2%20-%20IHC/relatorio.md#tabela-de-pontua%C3%A7%C3%A3o-por-atributo)
+- [2.1 Tabela de pontuação por atributo](https://github.com/jeziel-monteiro/IHC/blob/main/TP2%20-%20IHC/relatorio.md#tabela-de-pontua%C3%A7%C3%A3o-por-atributo)
 
 ## 3 - Descrição da base sintética
-- [Tabela de requisitos da base]
+- [3.1 Tabela de requisitos da base](https://github.com/jeziel-monteiro/IHC/blob/main/TP2%20-%20IHC/relatorio.md#31-tabela-de-requisitos-da-base)
 
 ## 4 - Descrição dos experimentos Weka
 - [4.1 Ambiente e Conjunto de Dados](https://github.com/jeziel-monteiro/IHC/blob/main/TP2%20-%20IHC/relatorio.md#41-ambiente-e-conjunto-de-dados)
@@ -47,4 +46,5 @@ Este trabalho tem como objetivo central analisar e validar a aplicabilidade e a 
 - [5.3 Comparação dos resultados](https://github.com/jeziel-monteiro/IHC/blob/main/TP2%20-%20IHC/relatorio.md#53-compara%C3%A7%C3%A3o-dos-resultados)
 - [5.4 Validação das Regras Definidas](https://github.com/jeziel-monteiro/IHC/blob/main/TP2%20-%20IHC/relatorio.md#54-compara%C3%A7%C3%A3o-dos-resultados---valida%C3%A7%C3%A3o-das-regras-definidas)
 
-## 6 - [Análise crítica dos resultados em relação ao domínio de IHC](https://github.com/jeziel-monteiro/IHC/blob/main/TP2%20-%20IHC/relatorio.md#6---an%C3%A1lise-cr%C3%ADtica-dos-resultados-em-rela%C3%A7%C3%A3o-ao-dom%C3%ADnio-de-ihc)
+## 6 - Análise crítica dos resultados em relação ao domínio de IHC
+- [6.1 Análise crítica](https://github.com/jeziel-monteiro/IHC/blob/main/TP2%20-%20IHC/relatorio.md#an%C3%A1lise-cr%C3%ADtica)
