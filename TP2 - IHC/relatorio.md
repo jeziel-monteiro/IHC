@@ -1,4 +1,4 @@
-# Etapa 1 - Definição do problema
+# 1 - Definição do problema
 
 ## Contexto e Motivação
 
@@ -35,16 +35,7 @@ Para a base sintética, foi gerado com o auxílio de IA, um sistema eccomerce si
 9. Preencher dados de entrega;
 10. Finalizar compra;
 
-# Etapa 2 - Geração da base sintética
-
-## Requisitos da base:
-
-- **500 instâncias**;
-- **5 Atributos preditores**;
-- **1 classe-alvo** (multiclasse).
-
-
-## Regra da Classe-Alvo
+# 2 - Regras usadas para gerar a classe-alvo
 As definições e os critérios da classe-alvo foram organizados da seguinte maneira:
 
 1. Os atributos foram categorizados por um sistema de pontuação, no qual cada atributo contribui com +1 ou -1.
@@ -64,14 +55,20 @@ As definições e os critérios da classe-alvo foram organizados da seguinte man
 - **Baixa**:  $\le -3$;
 - **Média**: caso contrário.
 
-# Etapa 3 - Exploração e Classificação no Weka
+# 3 - Descrição da base sintética
 
-## 1. Exploração dos dados
+| Item | Descrição |
+| :--- | :--- |
+| **Ferramenta** | Gemini |
+| **Formato** | .arff — compatível com o software Weka |
+| **instâncias** | 500 instâncias |
+| **Atributos** | 5 atributos númericos |
+| **Classe-alvo** | 1 classe-alvo (multiclasse) |
+| **Link para a base** | |
 
-## 2. Treinamento de classificadores
+# 4 - Descrição dos experimentos Weka
 
-## 3. Avaliação
+# 5 - Resultados
 
-## 4. Interpretação dos modelos
+# 6 - Análise crítica dos resultados em relação ao domínio de IHC
 
-# Etapa 4 - Relatório
