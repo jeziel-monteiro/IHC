@@ -68,11 +68,10 @@ As definições e os critérios da classe-alvo foram organizados da seguinte man
 
 # 4 - Descrição dos experimentos Weka
 
+<div align="justify">
 # 5 - Resultados
 
-
-<div align="justify">
-### 5.1. Validação das Regras Definidas
+5.2. Comparação dos Resultados - Validação das Regras Definidas
 
 O ZeroR serve como a linha de base fundamental e demonstra o resultado das regras de pontuação, mas não a sua lógica. Este modelo ignora completamente todos os atributos preditivos
 (Qtd_atividades, Qtd_erros, etc.) e simplesmente identifica qual classe final (baixa, media ou alta) é a mais frequente no conjunto de dados. O fato de o modelo prever "alta" para todas as instâncias e atingir 41.76% de acurácia nos informa apenas uma coisa sobre o resultado do seu sistema de pontuação: ele produziu um conjunto de dados onde "alta" é a classe mais comum (a moda). A única função do ZeroR, portanto, é estabelecer o limite mínimo de desempenho que qualquer modelo inteligente deveria superar.
