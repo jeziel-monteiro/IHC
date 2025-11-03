@@ -64,7 +64,7 @@ As definições e os critérios da classe-alvo foram organizados da seguinte man
 | **instâncias** | 500 instâncias |
 | **Atributos** | 5 atributos númericos |
 | **Classe-alvo** | 1 classe-alvo (multiclasse) |
-| **Link para a base** | [comunicabilidade](https://drive.google.com/drive/folders/1stLx6XCPeD8Ajohc_5s8rtSHb19Cae5J?usp=sharing) |
+| **Link para a base** | [comunicabilidade.arff](https://drive.google.com/drive/folders/1stLx6XCPeD8Ajohc_5s8rtSHb19Cae5J?usp=sharing) |
 
 # 4 - Descrição dos experimentos Weka
 <div align="justify">
