@@ -20,6 +20,8 @@ Este trabalho tem como objetivo central analisar e validar a aplicabilidade e a 
 
 ## Arquitetura
 
+![Arquitetura completa](https://i.postimg.cc/MHyJ5Mgn/Arquitetura-completa.png)
+
 ## 1 - Definição do problema
 
 - [1.1 Contexto e motivação](https://github.com/jeziel-monteiro/IHC/blob/main/TP2%20-%20IHC/relatorio.md#11-contexto-e-motiva%C3%A7%C3%A3o)
