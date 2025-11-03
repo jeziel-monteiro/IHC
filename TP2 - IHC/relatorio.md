@@ -245,7 +245,7 @@ Figura 6: Resultado da execução do Random Forest.
 # 6 - Análise crítica dos resultados em relação ao domínio de IHC
 <div align="justify">
 
-## Análise crítica
+## 6.1 Análise crítica
 
 &ensp;A análise dos modelos de machine learning vai além de uma simples competição de acurácia; ela atua como uma validação quantitativa das heurísticas de IHC usadas para definir o conceito de "comunicabilidade". Os resultados são extremamente positivos, pois confirmam que os comportamentos observáveis do usuário (os atributos) são, de fato, preditores robustos da qualidade da interação. O sucesso dos modelos baseados em árvores é a validação mais forte. O problema foi definido por um sistema de pontuação manual, que é, em essência, um conjunto de regras "Se-Então". Os modelos de melhor desempenho foram justamente o J48 (uma única árvore de decisão)  e o RandomForest (um conjunto de 100 árvores). O sucesso deles prova que as regras de IHC definidas são lógicas, consistentes e "aprendíveis". O J48, por exemplo, utilizou os mesmos cinco atributos do sistema de pontuação manual para construir seu modelo, mostrando uma correspondência direta.
 
