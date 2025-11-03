@@ -79,12 +79,14 @@ Para avaliar a capacidade de diferentes algoritmos de aprendizado de máquina em
 ## 4.2. Algoritmos Selecionados
 Foram selecionados cinco algoritmos de classificação, cada um representando uma abordagem diferente de aprendizado, para testar distintas hipóteses sobre os dados:
 
-**ZeroR** 
-(weka.classifiers.rules.ZeroR):
+**ZeroR**:
 
 - Categoria: Regras (Baseline).
 
 - Propósito: Servir como linha de base (baseline) de desempenho. Este modelo simplesmente prevê a classe majoritária (a "moda") presente nos dados de treino, ignorando todos os atributos.
+
+[![Resultados do ZeroR](https://i.postimg.cc/tgc987FQ/Zero-R.png)](https://i.postimg.cc/tgc987FQ/Zero-R.png)
+*Figura 1: Resultado da execução do ZeroR.*
 
 **OneR** 
 (weka.classifiers.rules.OneR):
@@ -93,12 +95,18 @@ Foram selecionados cinco algoritmos de classificação, cada um representando um
 
 - Propósito: Identificar qual dos cinco atributos, sozinho, possui o maior poder preditivo para a classe-alvo.
 
+[![Resultados do OneR](https://i.postimg.cc/cJCsDfgb/One-R.png)](https://i.postimg.cc/cJCsDfgb/One-R.png)
+*Figura 2: Resultado da execução do OneR.*
+
 **J48** 
 (weka.classifiers.trees.J48):
 
 - Categoria: Árvores de Decisão (baseado no C4.5).
 
 - Propósito: Verificar se a lógica de classificação, que foi baseada em regras de pontuação (Seção 2), poderia ser "redescoberta" por um algoritmo que naturalmente gera regras "Se-Então".
+
+[![Resultados do J48](https://i.postimg.cc/VNvY7XrG/J48.png)](https://i.postimg.cc/VNvY7XrG/J48.png)
+*Figura 3: Resultado da execução do J48.*
 
 **IBk** 
 (weka.classifiers.lazy.IBk):
@@ -107,12 +115,27 @@ Foram selecionados cinco algoritmos de classificação, cada um representando um
 
 - Propósito: Avaliar a consistência e a separação dos grupos. Se instâncias da mesma classe (ex: "alta") estão numericamente "próximas" umas das outras, este modelo deve ter um bom desempenho.
 
+[![Resultados do IBk](https://i.postimg.cc/vZ3YL0B6/IBK.png)](https://i.postimg.cc/vZ3YL0B6/IBK.png)
+*Figura 4: Resultado da execução do IBk (k=1).*
+
 **NaiveBayes**
 (weka.classifiers.bayes.NaiveBayes):
 
 - Categoria: Probabilístico (Bayesiano).
 
 - Propósito: Testar a eficácia de um modelo estatístico que calcula a probabilidade de uma instância pertencer a uma classe com base nos perfis médios de cada atributo.
+
+[![Resultados do NaiveBayes](https://i.postimg.cc/zfvJdTbx/Naive-Bayes.png)](https://i.postimg.cc/zfvJdTbx/Naive-Bayes.png)
+*Figura 5: Resultado da execução do NaiveBayes.*
+
+RandomForest (weka.classifiers.trees.RandomForest):
+
+Categoria: Método de Conjunto (Ensemble) de Árvores de Decisão.
+
+Propósito: Testar a robustez e a estabilidade das regras de pontuação. Ao construir um "comitê" de árvores de decisão (em vez de apenas uma, como o J48) com base em subconjuntos aleatórios dos dados, este modelo avalia se a lógica de classificação é um sinal forte e geral, capaz de ser identificado consistentemente por múltiplos "especialistas".
+
+[![Resultados do Random Forest](https://i.postimg.cc/jj2s8ywm/Random-Forest.png)](https://i.postimg.cc/jj2s8ywm/Random-Forest.png)
+*Figura 6: Resultado da execução do Random Forest.*
 
 # 5 - Resultados
 <div align="justify">
