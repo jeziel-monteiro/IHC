@@ -67,46 +67,52 @@ As definições e os critérios da classe-alvo foram organizados da seguinte man
 | **Link para a base** | |
 
 # 4 - Descrição dos experimentos Weka
-
+<div align="justify">
+ 
 Para avaliar a capacidade de diferentes algoritmos de aprendizado de máquina em classificar a comunicabilidade do sistema, foi desenhado um protocolo experimental utilizando o software Weka. Abaixo, toda a descrição:
 
 ## 4.1. Ambiente e Conjunto de Dados
-Software: Weka.
+- Software: Weka.
 
-Conjunto de Dados: Foi utilizada a base sintética comunicabilidade_dados.arff, descrita na Seção 3, contendo 500 instâncias, 5 atributos preditores numéricos (Qtd_atividades, Tempo_gasto, Qtd_etiquetas, Num_ajudas, Qtd_erros) e 1 atributo-alvo nominal (comunicabilidade). 
+- Conjunto de Dados: Foi utilizada a base sintética comunicabilidade_dados.arff, descrita na Seção 3, contendo 500 instâncias, 5 atributos preditores numéricos (Qtd_atividades, Tempo_gasto, Qtd_etiquetas, Num_ajudas, Qtd_erros) e 1 atributo-alvo nominal (comunicabilidade). 
 
 ## 4.2. Algoritmos Selecionados
 Foram selecionados cinco algoritmos de classificação, cada um representando uma abordagem diferente de aprendizado, para testar distintas hipóteses sobre os dados:
 
-ZeroR (weka.classifiers.rules.ZeroR):
+**ZeroR** 
+(weka.classifiers.rules.ZeroR):
 
-Categoria: Regras (Baseline).
+- Categoria: Regras (Baseline).
 
-Propósito: Servir como linha de base (baseline) de desempenho. Este modelo simplesmente prevê a classe majoritária (a "moda") presente nos dados de treino, ignorando todos os atributos.
+- Propósito: Servir como linha de base (baseline) de desempenho. Este modelo simplesmente prevê a classe majoritária (a "moda") presente nos dados de treino, ignorando todos os atributos.
 
-OneR (weka.classifiers.rules.OneR):
+**OneR** 
+(weka.classifiers.rules.OneR):
 
-Categoria: Regras (Simples).
+- Categoria: Regras (Simples).
 
-Propósito: Identificar qual dos cinco atributos, sozinho, possui o maior poder preditivo para a classe-alvo.
+- Propósito: Identificar qual dos cinco atributos, sozinho, possui o maior poder preditivo para a classe-alvo.
 
-J48 (weka.classifiers.trees.J48):
+**J48** 
+(weka.classifiers.trees.J48):
 
-Categoria: Árvores de Decisão (baseado no C4.5).
+- Categoria: Árvores de Decisão (baseado no C4.5).
 
-Propósito: Verificar se a lógica de classificação, que foi baseada em regras de pontuação (Seção 2), poderia ser "redescoberta" por um algoritmo que naturalmente gera regras "Se-Então".
+- Propósito: Verificar se a lógica de classificação, que foi baseada em regras de pontuação (Seção 2), poderia ser "redescoberta" por um algoritmo que naturalmente gera regras "Se-Então".
 
-IBk (weka.classifiers.lazy.IBk):
+**IBk** 
+(weka.classifiers.lazy.IBk):
 
-Categoria: Baseado em Instâncias (k-Nearest Neighbors).
+- Categoria: Baseado em Instâncias (k-Nearest Neighbors).
 
-Propósito: Avaliar a consistência e a separação dos grupos. Se instâncias da mesma classe (ex: "alta") estão numericamente "próximas" umas das outras, este modelo deve ter um bom desempenho.
+- Propósito: Avaliar a consistência e a separação dos grupos. Se instâncias da mesma classe (ex: "alta") estão numericamente "próximas" umas das outras, este modelo deve ter um bom desempenho.
 
-NaiveBayes (weka.classifiers.bayes.NaiveBayes):
+**NaiveBayes**
+(weka.classifiers.bayes.NaiveBayes):
 
-Categoria: Probabilístico (Bayesiano).
+- Categoria: Probabilístico (Bayesiano).
 
-Propósito: Testar a eficácia de um modelo estatístico que calcula a probabilidade de uma instância pertencer a uma classe com base nos perfis médios de cada atributo.
+- Propósito: Testar a eficácia de um modelo estatístico que calcula a probabilidade de uma instância pertencer a uma classe com base nos perfis médios de cada atributo.
 
 # 5 - Resultados
 <div align="justify">
