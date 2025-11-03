@@ -70,11 +70,15 @@ As definições e os critérios da classe-alvo foram organizados da seguinte man
 
 # 5 - Resultados
 
+
+<div align="justify">
 ### 5.1. Validação das Regras Definidas
 
 O ZeroR serve como a linha de base fundamental e demonstra o resultado das regras de pontuação, mas não a sua lógica. Este modelo ignora completamente todos os atributos preditivos
 (Qtd_atividades, Qtd_erros, etc.) e simplesmente identifica qual classe final (baixa, media ou alta) é a mais frequente no conjunto de dados. O fato de o modelo prever "alta" para todas as instâncias e atingir 41.76% de acurácia nos informa apenas uma coisa sobre o resultado do seu sistema de pontuação: ele produziu um conjunto de dados onde "alta" é a classe mais comum (a moda). A única função do ZeroR, portanto, é estabelecer o limite mínimo de desempenho que qualquer modelo inteligente deveria superar.
 O OneR atuou como um validador do atributo-chave. Ele determinou que Qtd_atividades era o previsor individual mais forte, o que está em perfeito alinhamento com as regras de pontuação definidas. Enquanto a regra manual dava +1 ponto para \ge 8 e -1 para \le 3, o OneR aprendeu regras quase idênticas de forma independente: >= 7.5 \rightarrow alta e < 4.5 \rightarrow baixa. Isso confirma que Qtd_atividades, mesmo sozinho, é um indicador robusto da classe de comunicabilidade, justificando a acurácia de 81.76% do modelo.
+O J48 apresentou a correspondência mais perfeita, e sua alta acurácia (89.41%) é justificada pela natureza do problema. O sistema de pontuação original, que combina múltiplos atributos com regras "Se-Então" (como Qtd_erros <= 5 e Qtd_atividades >= 8), é, em essência, uma árvore de decisão. O J48, sendo um algoritmo construtor de árvores, foi o mais apto a "redescobrir" essa lógica. A prova de sua eficácia é que o modelo final utilizou exatamente os mesmos cinco atributos (Qtd_atividades, Tempo_gasto, Qtd_etiquetas, Num_ajudas, Qtd_erros) que compõem o sistema de pontuação manual.
+O IBk (com k=1) validou a consistência dos grupos criados pelas regras. Modelos baseados em distância, como o k-NN, só funcionam bem se as instâncias da mesma classe estiverem "próximas" umas das outras no espaço de atributos. O sistema de pontuação garante exatamente isso: todas as instâncias alta (pontuação maior ou igual a +3) serão, por definição, numericamente semelhantes (poucos erros, poucas ajudas, muitas atividades), formando um "agrupamento" (cluster). A alta acurácia de 87.06% do IBk prova que as regras de negócio criaram grupos consistentes e bem definidos, permitindo que a lógica do "vizinho mais próximo" fosse eficaz.
 </div>
 
 # 6 - Análise crítica dos resultados em relação ao domínio de IHC
