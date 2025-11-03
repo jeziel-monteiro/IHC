@@ -75,8 +75,7 @@ As definições e os critérios da classe-alvo foram organizados da seguinte man
 O ZeroR serve como a linha de base fundamental e demonstra o resultado das regras de pontuação, mas não a sua lógica. Este modelo ignora completamente todos os atributos preditivos
 (Qtd_atividades, Qtd_erros, etc.) e simplesmente identifica qual classe final (baixa, media ou alta) é a mais frequente no conjunto de dados. O fato de o modelo prever "alta" para todas as instâncias e atingir 41.76% de acurácia nos informa apenas uma coisa sobre o resultado do seu sistema de pontuação: ele produziu um conjunto de dados onde "alta" é a classe mais comum (a moda). A única função do ZeroR, portanto, é estabelecer o limite mínimo de desempenho que qualquer modelo inteligente deveria superar.
 O OneR atuou como um validador do atributo-chave. Ele determinou que Qtd_atividades era o previsor individual mais forte, o que está em perfeito alinhamento com as regras de pontuação definidas. Enquanto a regra manual dava +1 ponto para \ge 8 e -1 para \le 3, o OneR aprendeu regras quase idênticas de forma independente: >= 7.5 \rightarrow alta e < 4.5 \rightarrow baixa. Isso confirma que Qtd_atividades, mesmo sozinho, é um indicador robusto da classe de comunicabilidade, justificando a acurácia de 81.76% do modelo.
-
-
+</div>
 
 # 6 - Análise crítica dos resultados em relação ao domínio de IHC
 
