@@ -1,11 +1,11 @@
 # 1 - Definição do problema
 
 ## 1.1 Contexto e Motivação
-
+<div align="justify">
 &ensp;Para um sistema ser eficiente e que atenda ao seu usuário, é importante que se dê uma atenção maior entre os mesmos, esse é o foco do fundamento de comunicabilidade, no qual tem o objetivo de transmitir ao usuário de forma eficaz e eficiente as intenções e princípios de interação que guiaram o seu design. Com isso, o nosso trabalho definiu a comunicabilidade para a classificação supervisionada aplicada a problema de interação humano computador pro análise crítico bem como ter maior compreensão dos sistemas em relação a melhoria na Usabilidade e experiência do usuário.
 
 ## 1.2 Atributos
-Os atributos estão relacionados ao esforço, tempo e compreensão do usuário ao sistema, dentre eles temos:
+&ensp;Os atributos estão relacionados ao esforço, tempo e compreensão do usuário ao sistema, dentre eles temos:
 
 - **Qtd_atividades**: Número de tarefas concluídas;
 - **Tempo_gasto**: Tempo total em segundos da execução das tarefas;
@@ -14,14 +14,14 @@ Os atributos estão relacionados ao esforço, tempo e compreensão do usuário a
 - **Qtd_erros**: Número de falhas passos incorretos que o usuário cometeu ao tentar concluir as atividades.
 
 ## 1.3 Classe-Alvo
-A classe-alvo é a comunicabilidade, em que foi divida em multiclasse:
+&ensp;A classe-alvo é a comunicabilidade, em que foi divida em multiclasse:
 
 - **Alta**: O sistema apresenta um índice alto de comunicabilidade;
 - **Média**: O sistema apresenta um índice médio de comunicabilidade;
 - **Baixa**: O sistema apresenta um índice baixo de comunicabilidade.
 
 ## 1.4 Sistema
-Para a base sintética, foi gerado com o auxílio de IA, um sistema eccomerce simples contendo 10 tarefas, exclusivamente para dar um contexto ao trabalho:
+&ensp;Para a base sintética, foi gerado com o auxílio de IA, um sistema eccomerce simples contendo 10 tarefas, exclusivamente para dar um contexto ao trabalho:
 
 **Tarefas**
 1. Encontrar produto específico;
@@ -36,7 +36,7 @@ Para a base sintética, foi gerado com o auxílio de IA, um sistema eccomerce si
 10. Finalizar compra.
 
 # 2 - Regras usadas para gerar a classe-alvo
-As definições e os critérios da classe-alvo foram organizados da seguinte maneira:
+&ensp;As definições e os critérios da classe-alvo foram organizados da seguinte maneira:
 
 1. Os atributos foram categorizados por um sistema de pontuação, no qual cada atributo contribui com +1 ou -1.
 
@@ -69,7 +69,7 @@ As definições e os critérios da classe-alvo foram organizados da seguinte man
 # 4 - Descrição dos experimentos Weka
 <div align="justify">
  
-Para avaliar a capacidade de diferentes algoritmos de aprendizado de máquina em classificar a comunicabilidade do sistema, foi desenhado um protocolo experimental utilizando o software Weka. Abaixo, toda a descrição:
+&ensp;Para avaliar a capacidade de diferentes algoritmos de aprendizado de máquina em classificar a comunicabilidade do sistema, foi desenhado um protocolo experimental utilizando o software Weka. Abaixo, toda a descrição:
 
 ## 4.1. Ambiente e Conjunto de Dados
 - Software: Weka;
@@ -77,7 +77,7 @@ Para avaliar a capacidade de diferentes algoritmos de aprendizado de máquina em
 - Conjunto de Dados: Foi utilizada a base sintética comunicabilidade_dados.arff, descrita na Seção 3, contendo 500 instâncias, 5 atributos preditores numéricos (Qtd_atividades, Tempo_gasto, Qtd_etiquetas, Num_ajudas, Qtd_erros) e 1 atributo-alvo nominal (comunicabilidade). 
 
 ## 4.2. Algoritmos Selecionados
-Foram selecionados cinco algoritmos de classificação, cada um representando uma abordagem diferente de aprendizado, para testar distintas hipóteses sobre os dados:
+&ensp;Foram selecionados cinco algoritmos de classificação, cada um representando uma abordagem diferente de aprendizado, para testar distintas hipóteses sobre os dados:
 
 **ZeroR**:
 
