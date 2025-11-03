@@ -10,7 +10,7 @@ Os atributos estão relacionados ao esforço, tempo e compreensão do usuário a
 - **Qtd_atividades**: Número de tarefas concluídas;
 - **Tempo_gasto**: Tempo total em segundos da execução das tarefas;
 - **Qtd_etiquetas**: Número de etiquetas violadas;
-- **Num_ajudas_solicitadas**: Número de ajuda que o usuário solicitou;
+- **Num_ajudas**: Número de ajuda que o usuário solicitou;
 - **Qtd_erros**: Número de falhas passos incorretos que o usuário cometeu ao tentar concluir as atividades.
 
 ## 1.3 Classe-Alvo
@@ -40,7 +40,7 @@ As definições e os critérios da classe-alvo foram organizados da seguinte man
 
 1. Os atributos foram categorizados por um sistema de pontuação, no qual cada atributo contribui com +1 ou -1.
 
-#### Tabela de pontuação por atributo 
+## 2.1 Tabela de pontuação por atributo 
 | Atributo | Ponto Positivo (**+1**) | Ponto Negativo (**-1**) |
 | :--- | :--- | :--- |
 | Qtd\_atividades | $\ge 8$ | $\le 3$ |
@@ -56,7 +56,7 @@ As definições e os critérios da classe-alvo foram organizados da seguinte man
 - **Média**: caso contrário.
 
 # 3 - Descrição da base sintética
-
+## 3.1 Tabela de requisitos da base
 | Item | Descrição |
 | :--- | :--- |
 | **Ferramenta** | Gemini |
@@ -128,11 +128,12 @@ Foram selecionados cinco algoritmos de classificação, cada um representando um
 [![Resultados do NaiveBayes](https://i.postimg.cc/zfvJdTbx/Naive-Bayes.png)](https://i.postimg.cc/zfvJdTbx/Naive-Bayes.png)
 *Figura 5: Resultado da execução do NaiveBayes.*
 
-RandomForest (weka.classifiers.trees.RandomForest):
+**RandomForest** 
+(weka.classifiers.trees.RandomForest):
 
-Categoria: Método de Conjunto (Ensemble) de Árvores de Decisão.
+- Categoria: Método de Conjunto (Ensemble) de Árvores de Decisão.
 
-Propósito: Testar a robustez e a estabilidade das regras de pontuação. Ao construir um "comitê" de árvores de decisão (em vez de apenas uma, como o J48) com base em subconjuntos aleatórios dos dados, este modelo avalia se a lógica de classificação é um sinal forte e geral, capaz de ser identificado consistentemente por múltiplos "especialistas".
+- Propósito: Testar a robustez e a estabilidade das regras de pontuação. Ao construir um "comitê" de árvores de decisão (em vez de apenas uma, como o J48) com base em subconjuntos aleatórios dos dados, este modelo avalia se a lógica de classificação é um sinal forte e geral, capaz de ser identificado consistentemente por múltiplos "especialistas".
 
 [![Resultados do Random Forest](https://i.postimg.cc/jj2s8ywm/Random-Forest.png)](https://i.postimg.cc/jj2s8ywm/Random-Forest.png)
 *Figura 6: Resultado da execução do Random Forest.*
@@ -149,13 +150,15 @@ Propósito: Testar a robustez e a estabilidade das regras de pontuação. Ao con
 | **J48** | 89.41% |
 | **Ibk (K-nn)** | 87.06% |
 | **Naive Bayes** | 83.53% |
+| **Random Forest** | 90% |
 
-- Com uma Acurácia de 41.76%, o ZeroR trabalha de maneira bem simplista, ignorando todos os atributos de previsão, por isso é tratado apenas como linha de base.
-- Com uma Acurácia de 81.76%, o OneR já funciona de maneira diferente do anterior. Ele testa cada atributo individualmente, calculando a taxa de erro de cada um e, no final, escolhe o único atributo que, sozinho, forneceu a menor taxa de erro.
-- Com uma Acurácia de 89.41%, o J48 trabalha de maneira mais complexa, criando um conjunto de regras “Se-Então” aninhadas (uma árvore, ou, como conhecemos, Tree), usando múltiplos atributos em combinação para tomar uma decisão.
-- Com uma Acurácia de 87.06% (e não 87.85%), o IBk não funciona construindo um modelo de regras; ele apenas memoriza os dados de treinamento. Ele calcula a distância para todos os pontos do conjunto de treinamento, encontra o único ponto mais próximo e, assim, a nova instância recebe a mesma classe.
-- Com uma Acurácia de 83.53%, o Naive Bayes se trata de um modelo probabilístico. Ele não constrói regras; em vez disso, calcula a probabilidade de uma instância pertencer a cada uma das classes e, no fim, escolhe a classe com maior probabilidade.
-
+- Com uma Acurácia de 41.76%, o ZeroR trabalha de maneira bem simplista, ignorando todos os atributos de previsão, por isso é tratado apenas como linha de base;
+- Com uma Acurácia de 81.76%, o OneR já funciona de maneira diferente do anterior. Ele testa cada atributo individualmente, calculando a taxa de erro de cada um e, no final, escolhe o único atributo que, sozinho, forneceu a menor taxa de erro;
+- Com uma Acurácia de 89.41%, o J48 trabalha de maneira mais complexa, criando um conjunto de regras “Se-Então” aninhadas (uma árvore, ou, como conhecemos, Tree), usando múltiplos atributos em combinação para tomar uma decisão;
+- Com uma Acurácia de 87.06% (e não 87.85%), o IBk não funciona construindo um modelo de regras; ele apenas memoriza os dados de treinamento. Ele calcula a distância para todos os pontos do conjunto de treinamento, encontra o único ponto mais próximo e, assim, a nova instância recebe a mesma classe;
+- Com uma Acurácia de 83.53%, o Naive Bayes se trata de um modelo probabilístico. Ele não constrói regras; em vez disso, calcula a probabilidade de uma instância pertencer a cada uma das classes e, no fim, escolhe a classe com maior probabilidade;
+- Com uma Acurácia de 90%, o Random Forest se trata de um modelo robusto. Configurado para receber 100 árvores de decisão para classificar os dasdos. Ele constrói diversos árvores de Decisão simples e combina os resultaodos para chegar a uma resposta final muito mais robusta.
+  
 ## 5.2 Matriz de Confusão
 
 **ZeroR**
@@ -163,45 +166,53 @@ Propósito: Testar a robustez e a estabilidade das regras de pontuação. Ao con
 <img width="280" height="195" alt="ZeroR" src="https://github.com/user-attachments/assets/a6be3939-75c2-4675-9c2c-e7d6370bef42" />
 
 
-- Sua Matriz de Confusão demonstra como o ZeroR opera: ele escolhe a classe mais comum ('Alta') para todas as instâncias, identificando a moda geral. Por isso, a classe 'Alta' é a única com instâncias previstas.
+- Sua Matriz de Confusão demonstra como o ZeroR opera: ele escolhe a classe mais comum ('Alta') para todas as instâncias, identificando a moda geral. Por isso, a classe 'Alta' é a única com instâncias previstas;
 
 **OneR**
 
 <img width="280" height="195" alt="OneR" src="https://github.com/user-attachments/assets/5e65f53d-f907-4161-89ad-c24255736ada" />
 
 
-- Sua Matriz de Confusão, a princípio, tenta prever todas as três classes. O modelo apresenta uma taxa bem pequena de Falsos Negativos nas classes 'Alta' e, principalmente, 'Baixa', enquanto a classe 'Média' possui uma taxa maior de erros.
+- Sua Matriz de Confusão, a princípio, tenta prever todas as três classes. O modelo apresenta uma taxa bem pequena de Falsos Negativos nas classes 'Alta' e, principalmente, 'Baixa', enquanto a classe 'Média' possui uma taxa maior de erros;
 
 **J48**
 
 <img width="280" height="195" alt="J48" src="https://github.com/user-attachments/assets/200a1823-aa42-48e6-aefc-03a7fb383801" />
 
 
-- Sua Matriz de Confusão foi perfeita na análise da classe 'Baixa', apresentando apenas Verdadeiros Positivos, além de alcançar um desempenho quase perfeito na classe 'Alta'. Restou novamente à classe 'Média' a maior taxa de Falsos Negativos, apesar de ainda manter um bom desempenho.
+- Sua Matriz de Confusão foi perfeita na análise da classe 'Baixa', apresentando apenas Verdadeiros Positivos, além de alcançar um desempenho quase perfeito na classe 'Alta'. Restou novamente à classe 'Média' a maior taxa de Falsos Negativos, apesar de ainda manter um bom desempenho;
 
 **Ibk (K-nn)**
 
 <img width="280" height="195" alt="Ibk (K-nn)" src="https://github.com/user-attachments/assets/acb5b74b-a198-43db-801f-4df4ea8565aa" />
 
 
-- Sua Matriz de Confusão apresenta um desempenho praticamente perfeito na classe 'Baixa', com apenas um Falso Negativo (e não Falso Positivo). Dessa vez, a classe com mais erros é a 'Alta' (com 11 Falsos Negativos), sugerindo que, no espaço de atributos, esses 11 pontos 'Alta' estão mais próximos da 'Média'. A classe 'Média' também se encontra com uma taxa elevada de erros, com 10 no total.
+- Sua Matriz de Confusão apresenta um desempenho praticamente perfeito na classe 'Baixa', com apenas um Falso Negativo (e não Falso Positivo). Dessa vez, a classe com mais erros é a 'Alta' (com 11 Falsos Negativos), sugerindo que, no espaço de atributos, esses 11 pontos 'Alta' estão mais próximos da 'Média'. A classe 'Média' também se encontra com uma taxa elevada de erros, com 10 no total;
 
 **Naive Bayes**
 
 <img width="280" height="195" alt="Naive Bayes" src="https://github.com/user-attachments/assets/833ec1c5-0bce-4415-8e94-f8b49f4ad343" />
 
 
-- Em sua matriz de confusão, apesar de ter Recall perfeito na classe 'Baixa' (0 Falsos Negativos), o modelo classificou 9 instâncias que eram realmente da classe 'Média' como 'Baixa', diminuindo bastante sua Precisão (Precision) para a classe 'Baixa'. A classe 'Alta' foi bem consistente, com apenas 8 erros, enquanto a classe 'Média', novamente, teve o pior desempenho, acumulando 20 Falsos Negativos (e não Falsos Positivos).
+- Sua Matriz de Confusão, apesar de ter Recall perfeito na classe 'Baixa' (0 Falsos Negativos), o modelo classificou 9 instâncias que eram realmente da classe 'Média' como 'Baixa', diminuindo bastante sua Precisão (Precision) para a classe 'Baixa'. A classe 'Alta' foi bem consistente, com apenas 8 erros, enquanto a classe 'Média', novamente, teve o pior desempenho, acumulando 20 Falsos Negativos (e não Falsos Positivos);
+  
+**Random Forest**
+  
+  <img width="280" height="195" alt="Random Forest" src="https://github.com/user-attachments/assets/16547c88-7b5a-4de2-9805-93e963e2cfd8" />
+
+  
+  - Sua Matriz de Confusão, possui uma taxa de acerto perfeita na Classe "baixa" com 34 Verdadeiros Positivos. Sua análise Classe "baixa" foi quase perfeita também, possuindo apenas 6 Falsos Positivos, com uma taxa de Acerto de 91.5%. Como era de se esperar, a Classe "Média" possui a maior taxa de erros, tendo 11 instâncias classificadas erroneamente, ainda assim, considerando o histórico, foi uma taxa de acerto bem acima da média.
 
 ## 5.3 Comparação dos Resultados
 
 | Algoritmo | Como Funciona (Neste Caso) | Principal Ponto Fraco (Onde Errou) |
 | :--- | :--- | :--- |
-| ZeroR | Linha de base. Apenas previu a classe mais comum (alta) para todas as instâncias. | Ignorou 100% das classes baixa e media.|
-| OneR | Criou 3 regras simples baseadas apenas no atributo Qtd_atividades. | Foi o pior modelo (sem contar o ZeroR) para a classe media (21 erros).|
-| J48 | Criou uma árvore de regras complexa usando 5 atributos para tomar decisões. | O melhor de todos, mas ainda errou 14 instâncias da classe media.|
-| IBk (k-nn) | "Preguiçoso". Classificou cada instância com base na classe do seu "vizinho" mais próximo. | Muito bom, mas confundiu 11 instâncias alta com media.|
-| NaiveBayes | Probabilístico. Calculou a chance de ser de cada classe com base nas médias estatísticas dos atributos. | Errou muito na classe media (20 erros) e teve baixa precisão na baixa.|
+| **ZeroR** | Linha de base. Apenas previu a classe mais comum (alta) para todas as instâncias. | Ignorou 100% das classes baixa e media.|
+| **OneR** | Criou 3 regras simples baseadas apenas no atributo Qtd_atividades. | Foi o pior modelo (sem contar o ZeroR) para a classe media (21 erros).|
+| **J48** | Criou uma árvore de regras complexa usando 5 atributos para tomar decisões. | O melhor de todos, mas ainda errou 14 instâncias da classe media.|
+| **IBk (k-nn)** | "Preguiçoso". Classificou cada instância com base na classe do seu "vizinho" mais próximo. | Muito bom, mas confundiu 11 instâncias alta com media.|
+| **NaiveBayes** | Probabilístico. Calculou a chance de ser de cada classe com base nas médias estatísticas dos atributos. | Errou muito na classe media (20 erros) e teve baixa precisão na baixa.|
+| **Random Forest** | Constrói 100 árvores de decisão e classifica pela "votação" da maioria. | O modelo mais preciso (17 erros), mas a classe "media" ainda foi a mais difícil (11 erros). |
 
 ## 5.4 Comparação dos Resultados - Validação das Regras Definidas
 <div align="justify">
@@ -215,15 +226,18 @@ O J48 apresentou a correspondência mais perfeita, e sua alta acurácia (89.41%)
 O IBk (com k=1) validou a consistência dos grupos criados pelas regras. Modelos baseados em distância, como o k-NN, só funcionam bem se as instâncias da mesma classe estiverem "próximas" umas das outras no espaço de atributos. O sistema de pontuação garante exatamente isso: todas as instâncias alta (pontuação maior ou igual a +3) serão, por definição, numericamente semelhantes (poucos erros, poucas ajudas, muitas atividades), formando um "agrupamento" (cluster). A alta acurácia de 87.06% do IBk prova que as regras de negócio criaram grupos consistentes e bem definidos, permitindo que a lógica do "vizinho mais próximo" fosse eficaz.
 
 O NaiveBayes funcionou como um reflexo estatístico das regras de pontuação. Embora não aprenda regras explícitas, ele aprendeu o perfil médio de cada classe. Por exemplo, a regra de negócio determina que Qtd_erros $\le 5$ é positivo e $\ge 10$ é negativo. O modelo NaiveBayes capturou isso perfeitamente, aprendendo que a média de Qtd_erros para a classe alta é 3.63, enquanto a média para a classe baixa é 12.03. O desempenho do modelo (83.53%) valida que as classes têm perfis estatísticos distintos, embora a suposição "ingênua" de independência dos atributos o tenha impedido de superar os modelos baseados em regras ou distância.
+
+O RandomForest está perfeitamente de acordo com as regras definidas e, de fato, reforça a complexidade delas. O algoritmo funciona construindo um "comitê" de 100 árvores de decisão (semelhantes ao J48) e usa a votação delas para classificar. Visto que o seu sistema de pontuação original já é um conjunto complexo de regras combinadas (somando pontos de 5 atributos), um modelo de ensemble como o RandomForest é teoricamente ideal para "aprender" essa lógica. A prova disso está nos resultados: o RandomForest alcançou a maior acurácia de todos os modelos (90.0%), superando por uma pequena margem a já excelente árvore de decisão única J48 (89.41%). Isso demonstra que, ao combinar as "opiniões" de 100 árvores, o modelo foi o mais eficaz em replicar o sistema de pontuação original e lidar com as "zonas cinzentas" (como a classe media) que confundiam os modelos mais simples.
 </div>
 
 # 6 - Análise crítica dos resultados em relação ao domínio de IHC
 <div align="justify">
 
-A análise dos resultados, sob a ótica da Interação Humano-Computador (IHC), oferece uma forte validação quantitativa para as heurísticas de interação usadas. O sucesso do modelo J48 (89.41% de acurácia) é a principal prova disso, demonstrando que o sistema de pontuação manual é consistente, lógico e "aprendível". Essencialmente, o J48 conseguiu "redescobrir" as regras de IHC, confirmando que os atributos escolhidos, como Qtd_erros e Num_ajudas, são indicadores reais e mensuráveis da qualidade da interação.
+A análise dos modelos de machine learning vai além de uma simples competição de acurácia; ela atua como uma validação quantitativa das heurísticas de IHC usadas para definir o conceito de "comunicabilidade". Os resultados são extremamente positivos, pois confirmam que os comportamentos observáveis do usuário (os atributos) são, de fato, preditores robustos da qualidade da interação. O sucesso dos modelos baseados em árvores é a validação mais forte. O problema foi definido por um sistema de pontuação manual, que é, em essência, um conjunto de regras "Se-Então". Os modelos de melhor desempenho foram justamente o J48 (uma única árvore de decisão)  e o RandomForest (um conjunto de 100 árvores). O sucesso deles prova que as regras de IHC definidas são lógicas, consistentes e "aprendíveis". O J48, por exemplo, utilizou os mesmos cinco atributos do sistema de pontuação manual para construir seu modelo, mostrando uma correspondência direta.
 
-Além disso, o modelo OneR identificou o atributo Qtd_atividades como o indicador-chave (ou proxy) mais poderoso, uma descoberta prática para avaliadores de IHC. O sucesso do modelo IBk (87.06%) e as visualizações dos dados também confirmam que as regras de IHC foram eficazes em criar "agrupamentos" de dados consistentes e separáveis, onde a "Alta" comunicabilidade (vermelho) se agrupa claramente em oposição à "Baixa" (azul).
+O resultado do OneR (81.76% de acurácia) oferece o insight mais prático para um avaliador de IHC. O modelo determinou que Qtd_atividades era o previsor individual mais forte. As regras que ele aprendeu (< 4.5 para 'baixa', > 7.5 para 'alta') são quase idênticas às regras de pontuação manuais ($\le 3$ e $\ge 8$), validando este atributo como um proxy poderoso e confiável para medir a comunicabilidade.
 
-Finalmente, a análise crítica mais importante reside na fonte de erro: todos os modelos tiveram sua maior dificuldade com a classe 'Média'. Isso sugere que, embora as regras de IHC sejam excelentes para definir o sucesso e o fracasso claros ('Alta' e 'Baixa'), a definição de uma interação "mediana" é inerentemente ambígua. Esta classe representa a "zona cinzenta" da IHC, onde comportamentos mistos do usuário tornam a categorização difícil, tanto para um especialista humano quanto para um algoritmo.	
+O sucesso do IBk (k-NN) confirmam que as definições de IHC criam grupos de comportamento distintos. As visualizações mostram que 'Alta' comunicabilidade (vermelho) se agrupa onde erros e etiquetas são baixos, enquanto 'Baixa' (azul) se agrupa onde são altos. O bom desempenho do IBk, um modelo baseado em distância, prova que essas regras de pontuação criam "clusters" de usuários que são matematicamente consistentes e separáveis.
 
+A análise crítica mais importante vem dos erros. Em todos os modelos de alto desempenho (J48 , IBk , Naive Bayes  e RandomForest), a classe 'Média' foi consistentemente a mais difícil de classificar e a maior fonte de falsos negativos. Isso sugere que, embora as heurísticas de IHC sejam excelentes para definir o sucesso claro ('Alta') e o fracasso claro ('Baixa'), a interação "mediana" é inerentemente ambígua. Esses usuários provavelmente exibem comportamentos mistos (ex: rápidos, mas com muitos erros) que desafiam uma categorização simples, representando a verdadeira "zona cinzenta" da interação, tanto para algoritmos quanto para avaliadores humanos.
 
