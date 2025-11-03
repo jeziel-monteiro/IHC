@@ -163,35 +163,35 @@ Foram selecionados cinco algoritmos de classificação, cada um representando um
 
 **ZeroR**
 
-<img width="280" height="195" alt="ZeroR" src="https://github.com/user-attachments/assets/a6be3939-75c2-4675-9c2c-e7d6370bef42" />
+<img width="280" height="195" alt="image" src="https://github.com/user-attachments/assets/ad781bbf-0dd0-4c67-9d1c-e0a898cd7eac" />
 
 
 - Sua Matriz de Confusão demonstra como o ZeroR opera: ele escolhe a classe mais comum ('Alta') para todas as instâncias, identificando a moda geral. Por isso, a classe 'Alta' é a única com instâncias previstas;
 
 **OneR**
 
-<img width="280" height="195" alt="OneR" src="https://github.com/user-attachments/assets/5e65f53d-f907-4161-89ad-c24255736ada" />
+<img width="280" height="195" alt="image" src="https://github.com/user-attachments/assets/9b9f2246-bed8-4cdf-a05a-265e21234539" />
 
 
 - Sua Matriz de Confusão, a princípio, tenta prever todas as três classes. O modelo apresenta uma taxa bem pequena de Falsos Negativos nas classes 'Alta' e, principalmente, 'Baixa', enquanto a classe 'Média' possui uma taxa maior de erros;
 
 **J48**
 
-<img width="280" height="195" alt="J48" src="https://github.com/user-attachments/assets/200a1823-aa42-48e6-aefc-03a7fb383801" />
+<img width="280" height="195" alt="image" src="https://github.com/user-attachments/assets/c4c00f33-c10e-4a80-a65d-3f629f40b31a" />
 
 
 - Sua Matriz de Confusão foi perfeita na análise da classe 'Baixa', apresentando apenas Verdadeiros Positivos, além de alcançar um desempenho quase perfeito na classe 'Alta'. Restou novamente à classe 'Média' a maior taxa de Falsos Negativos, apesar de ainda manter um bom desempenho;
 
 **Ibk (K-nn)**
 
-<img width="280" height="195" alt="Ibk (K-nn)" src="https://github.com/user-attachments/assets/acb5b74b-a198-43db-801f-4df4ea8565aa" />
+<img width="280" height="195" alt="image" src="https://github.com/user-attachments/assets/acbdb915-2872-40d6-9134-2b0332653dc1" />
 
 
 - Sua Matriz de Confusão apresenta um desempenho praticamente perfeito na classe 'Baixa', com apenas um Falso Negativo (e não Falso Positivo). Dessa vez, a classe com mais erros é a 'Alta' (com 11 Falsos Negativos), sugerindo que, no espaço de atributos, esses 11 pontos 'Alta' estão mais próximos da 'Média'. A classe 'Média' também se encontra com uma taxa elevada de erros, com 10 no total;
 
 **Naive Bayes**
 
-<img width="280" height="195" alt="Naive Bayes" src="https://github.com/user-attachments/assets/833ec1c5-0bce-4415-8e94-f8b49f4ad343" />
+<img width="280" height="195" alt="image" src="https://github.com/user-attachments/assets/7c35f6c2-8277-4999-947e-ebb6dbc9a686" />
 
 
 - Sua Matriz de Confusão, apesar de ter Recall perfeito na classe 'Baixa' (0 Falsos Negativos), o modelo classificou 9 instâncias que eram realmente da classe 'Média' como 'Baixa', diminuindo bastante sua Precisão (Precision) para a classe 'Baixa'. A classe 'Alta' foi bem consistente, com apenas 8 erros, enquanto a classe 'Média', novamente, teve o pior desempenho, acumulando 20 Falsos Negativos (e não Falsos Positivos);
