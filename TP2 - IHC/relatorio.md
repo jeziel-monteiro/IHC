@@ -154,7 +154,7 @@ Figura 6: Resultado da execução do Random Forest.
 
 **Matriz de Dispersão**
 
-Esta imagem é uma Matriz de Dispersão (Plot Matrix) gerada pela aba "Visualize" do software Weka. Ela compara visualmente cada atributo do conjunto de dados contra todos os outros.
+&ensp;Esta imagem é uma Matriz de Dispersão (Plot Matrix) gerada pela aba "Visualize" do software Weka. Ela compara visualmente cada atributo do conjunto de dados contra todos os outros.
 
 Os pontos são coloridos de acordo com as três classes de comunicabilidade (vermelho, azul e ciano para "alta", "média" e "baixa").
 
@@ -167,13 +167,13 @@ Figura 7: Matriz de Dispersão.
 
 **Quantidade de Erros x Quantidade de Etiquetas**
 
-Este gráfico de dispersão (scatter plot) do Weka ilustra a forte relação entre a Qtd_erros (eixo X, de 1 a 15) e a Qtd_etiquetas (eixo Y, de 1 a 11).
+&ensp;Este gráfico de dispersão (scatter plot) do Weka ilustra a forte relação entre a Qtd_erros (eixo X, de 1 a 15) e a Qtd_etiquetas (eixo Y, de 1 a 11).
 
-Alta (verde): Os pontos estão concentrados no canto inferior esquerdo, indicando que sistemas com alta comunicabilidade apresentam poucos erros e poucas etiquetas violadas.
+**Alta (verde):** Os pontos estão concentrados no canto inferior esquerdo, indicando que sistemas com alta comunicabilidade apresentam poucos erros e poucas etiquetas violadas.
 
-Baixa (azul): Os pontos agrupam-se no canto superior direito, mostrando que sistemas com baixa comunicabilidade têm muitos erros e muitas etiquetas violadas.
+**Baixa (azul):** Os pontos agrupam-se no canto superior direito, mostrando que sistemas com baixa comunicabilidade têm muitos erros e muitas etiquetas violadas.
 
-Média (vermelho): Os pontos ocupam a região intermediária e também se sobrepõem ao grupo 'alta', o que reforça a ideia de que a classe 'média' é um caso-limite entre as duas.
+**Média (vermelho):** Os pontos ocupam a região intermediária e também se sobrepõem ao grupo 'alta', o que reforça a ideia de que a classe 'média' é um caso-limite entre as duas.
 
 ![[Resultados do Random Forest](https://i.postimg.cc/zDWk7S2k/erros-por-etiquetas.png)](https://i.postimg.cc/zDWk7S2k/erros-por-etiquetas.png)
 <p align="center">
@@ -182,15 +182,15 @@ Figura 8: Quantidade de Erros x Quantidade de Etiquetas.
 
 **Quantidade de Etiquetas x Comunicabilidade**
 
-Este gráfico de dispersão (scatter plot) do Weka visualiza diretamente a relação entre a classe-alvo comunicabilidade (eixo X) e o atributo Qtd_etiquetas (eixo Y).
+&ensp;Este gráfico de dispersão (scatter plot) do Weka visualiza diretamente a relação entre a classe-alvo comunicabilidade (eixo X) e o atributo Qtd_etiquetas (eixo Y).
 
 A imagem confirma de forma explícita as regras de negócio usadas na geração dos dados:
 
-Classe 'baixa' (azul): Ocorre quase exclusivamente quando a Qtd_etiquetas violadas é alta (aproximadamente de 6 a 11).
+**Classe Baixa (azul):** Ocorre quase exclusivamente quando a Qtd_etiquetas violadas é alta (aproximadamente de 6 a 11).
 
-Classe 'alta' (verde): Ocorre predominantemente quando a Qtd_etiquetas é baixa (aproximadamente de 1 a 6).
+**Classe Alta (verde):** Ocorre predominantemente quando a Qtd_etiquetas é baixa (aproximadamente de 1 a 6).
 
-Classe 'media' (vermelho): Ocupa uma faixa central, mas se espalha por quase todo o espectro de valores de etiquetas, representando os casos que não se enquadram nos extremos "alto" ou "baixo".
+**Classe Média (vermelho):** Ocupa uma faixa central, mas se espalha por quase todo o espectro de valores de etiquetas, representando os casos que não se enquadram nos extremos "alto" ou "baixo".
 
 ![[Resultados do Random Forest](https://i.postimg.cc/8kWb4BXh/comunicabilidade-quantde-Etiqueta.png)](https://i.postimg.cc/8kWb4BXh/comunicabilidade-quantde-Etiqueta.png)
 <p align="center">
@@ -199,15 +199,15 @@ Figura 9: Quantidade de Etiquetas x Comunicabilidade
 
 **Tempo Gasto x Comunicabilidade**
 
-Este gráfico de dispersão do Weka compara a classe-alvo comunicabilidade (eixo X) com o atributo Tempo_gasto (eixo Y).
+&ensp;Este gráfico de dispersão do Weka compara a classe-alvo comunicabilidade (eixo X) com o atributo Tempo_gasto (eixo Y).
 
 A visualização mostra uma separação de classes muito nítida, que se alinha perfeitamente com as regras de pontuação definidas:
 
-Classe 'baixa' (azul): Está fortemente concentrada na faixa inferior de Tempo_gasto (aproximadamente de 103s a 250s). Isso valida a regra de que um tempo de execução muito baixo ($\le 200s$) é um indicador negativo (-1 ponto), sugerindo que o usuário pode ter abandonado as tarefas rapidamente por frustração.
+**Classe baixa (azul):** Está fortemente concentrada na faixa inferior de Tempo_gasto (aproximadamente de 103s a 250s). Isso valida a regra de que um tempo de execução muito baixo ($\le 200s$) é um indicador negativo (-1 ponto), sugerindo que o usuário pode ter abandonado as tarefas rapidamente por frustração.
 
-Classe 'alta' (verde): Agrupa-se distintamente na faixa superior de Tempo_gasto (aproximadamente de 250s a 400s). Isso valida a regra de que um tempo de execução alto ($\ge 301s$) é um indicador positivo (+1 ponto), sugerindo que o usuário estava engajado e completando o conjunto de tarefas.
+**Classe alta (verde):** Agrupa-se distintamente na faixa superior de Tempo_gasto (aproximadamente de 250s a 400s). Isso valida a regra de que um tempo de execução alto ($\ge 301s$) é um indicador positivo (+1 ponto), sugerindo que o usuário estava engajado e completando o conjunto de tarefas.
 
-Classe 'media' (vermelho): Ocupa a região intermediária, preenchendo o espaço entre os dois extremos.
+**Classe media (vermelho):** Ocupa a região intermediária, preenchendo o espaço entre os dois extremos.
 
 ![[Resultados do Random Forest](https://i.postimg.cc/NGTxD7Ck/comunicabilidade-tempo-Gasto.png)](https://i.postimg.cc/NGTxD7Ck/comunicabilidade-tempo-Gasto.png)
 <p align="center">
