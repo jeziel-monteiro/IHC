@@ -279,7 +279,14 @@ Figura 10: Tempo Gasto x Comunicabilidade
   
   - Sua Matriz de Confusão, possui uma taxa de acerto perfeita na Classe "baixa" com 34 Verdadeiros Positivos. Sua análise Classe "baixa" foi quase perfeita também, possuindo apenas 6 Falsos Positivos, com uma taxa de Acerto de 91.5%. Como era de se esperar, a Classe "Média" possui a maior taxa de erros, tendo 11 instâncias classificadas erroneamente, ainda assim, considerando o histórico, foi uma taxa de acerto bem acima da média.
 
-## 5.3 Comparação dos Resultados
+## 5.3 Modelo de Árvore
+
+**Árvore de Decisão - J48**
+
+![k48](https://github.com/user-attachments/assets/0c626876-8b0d-42e0-a44e-2b7b07e92628)
+
+
+## 5.4 Comparação dos Resultados
 
 | Algoritmo | Como Funciona (Neste Caso) | Principal Ponto Fraco (Onde Errou) |
 | :--- | :--- | :--- |
@@ -290,7 +297,7 @@ Figura 10: Tempo Gasto x Comunicabilidade
 | **NaiveBayes** | Probabilístico. Calculou a chance de ser de cada classe com base nas médias estatísticas dos atributos. | Errou muito na classe media (20 erros) e teve baixa precisão na baixa.|
 | **Random Forest** | Constrói 100 árvores de decisão e classifica pela "votação" da maioria. | O modelo mais preciso (17 erros), mas a classe "media" ainda foi a mais difícil (11 erros). |
 
-## 5.4 Comparação dos Resultados - Validação das Regras Definidas
+## 5.5 Comparação dos Resultados - Validação das Regras Definidas
 <div align="justify">
   
 &ensp;O ZeroR serve como a linha de base fundamental e demonstra o resultado das regras de pontuação, mas não a sua lógica. Este modelo ignora completamente todos os atributos preditivos (Qtd_atividades, Qtd_erros, etc.) e simplesmente identifica qual classe final (baixa, media ou alta) é a mais frequente no conjunto de dados. O fato de o modelo prever "alta" para todas as instâncias e atingir 41.76% de acurácia nos informa apenas uma coisa sobre o resultado do seu sistema de pontuação: ele produziu um conjunto de dados onde "alta" é a classe mais comum (a moda). A única função do ZeroR, portanto, é estabelecer o limite mínimo de desempenho que qualquer modelo inteligente deveria superar.
