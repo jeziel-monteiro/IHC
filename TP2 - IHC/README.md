@@ -43,8 +43,9 @@
 ## 5 - Resultados
 - [5.1 Tabela de Acurácia](https://github.com/jeziel-monteiro/IHC/blob/main/TP2%20-%20IHC/relatorio.md#51-tabela-de-acur%C3%A1cia)
 - [5.2 Matriz de confusão](https://github.com/jeziel-monteiro/IHC/blob/main/TP2%20-%20IHC/relatorio.md#52-matriz-de-confus%C3%A3o)
-- [5.3 Comparação dos resultados](https://github.com/jeziel-monteiro/IHC/blob/main/TP2%20-%20IHC/relatorio.md#53-compara%C3%A7%C3%A3o-dos-resultados)
-- [5.4 Validação das Regras Definidas](https://github.com/jeziel-monteiro/IHC/blob/main/TP2%20-%20IHC/relatorio.md#54-compara%C3%A7%C3%A3o-dos-resultados---valida%C3%A7%C3%A3o-das-regras-definidas)
+- [5.3 Modelo de Árvore](https://github.com/jeziel-monteiro/IHC/blob/main/TP2%20-%20IHC/relatorio.md#53-modelo-de-%C3%A1rvore)
+- [5.4 Comparação dos resultados](https://github.com/jeziel-monteiro/IHC/blob/main/TP2%20-%20IHC/relatorio.md#53-compara%C3%A7%C3%A3o-dos-resultados)
+- [5.5 Validação das Regras Definidas](https://github.com/jeziel-monteiro/IHC/blob/main/TP2%20-%20IHC/relatorio.md#54-compara%C3%A7%C3%A3o-dos-resultados---valida%C3%A7%C3%A3o-das-regras-definidas)
 
 ## 6 - Análise crítica dos resultados em relação ao domínio de IHC
 - [6.1 Análise crítica](https://github.com/jeziel-monteiro/IHC/blob/main/TP2%20-%20IHC/relatorio.md#an%C3%A1lise-cr%C3%ADtica)
