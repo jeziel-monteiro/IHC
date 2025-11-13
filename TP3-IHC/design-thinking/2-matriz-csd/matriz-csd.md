@@ -57,5 +57,11 @@ O plano para endereçar essas dúvidas é focado em pesquisa estratégica e de v
 | Grupo Temático | Dúvidas Principais | Implicação-Chave / Risco | Ação Imediata (Investigação) |
 | :--- | :--- | :--- | :--- |
 | **1. Modelo de Negócio** | O app terá plano por assinatura? Venderá passagens com reserva de hotéis/pousadas? | Define novos fluxos de receita versus o risco de complexidade e perda de foco no produto principal. | **Pesquisa de Mercado:** Análise de concorrência e modelos de negócio similares. **Definição Estratégica:** Alinhamento com a visão de longo prazo do produto. |
+
 | **2. Expansão Logística** | Suporte logístico (passageiro/encomenda) até o barco? Regras para encomendas de alimentos? | Transforma o app de um *marketplace* para um operador logístico. Risco operacional e de custo altíssimo. | **Estudo de Viabilidade:** Análise de custos vs. benefício. **Pesquisa UX:** Entrevistas para medir a demanda real por serviços "ponta-a-ponta". |
 | **3. Plataforma Técnica** | O aplicativo contará com suporte para iPhone (iOS)? | Impacto direto no custo, tempo de desenvolvimento e no tamanho do mercado alcançável (market share). | **Análise de Mercado:** Pesquisar o *market share* de dispositivos (Android vs. iOS) na região alvo. **Decisão Técnica:** Definir *roadmap* (nativo, híbrido, PWA). |
+
+### Evidência da Matriz
+
+![WhatsApp Image 2025-11-12 at 21 26 03](https://github.com/user-attachments/assets/d9647c98-98c1-465d-8cee-c3eec30f88f0)
+
