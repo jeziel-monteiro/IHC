@@ -1,3 +1,5 @@
+<div align="justify">
+
 # <p align="center">Matriz CSD</p>
 
 A Matriz de Certezas, Suposições e Dúvidas (CSD) a seguir detalha o panorama atual do projeto de desenvolvimento do aplicativo de transporte fluvial, focado na compra de passagens e envio de encomendas.
@@ -57,9 +59,9 @@ O plano para endereçar essas dúvidas é focado em pesquisa estratégica e de v
 | Grupo Temático | Dúvidas Principais | Implicação-Chave / Risco | Ação Imediata (Investigação) |
 | :--- | :--- | :--- | :--- |
 | **1. Modelo de Negócio** | O app terá plano por assinatura? Venderá passagens com reserva de hotéis/pousadas? | Define novos fluxos de receita versus o risco de complexidade e perda de foco no produto principal. | **Pesquisa de Mercado:** Análise de concorrência e modelos de negócio similares. **Definição Estratégica:** Alinhamento com a visão de longo prazo do produto. |
-
 | **2. Expansão Logística** | Suporte logístico (passageiro/encomenda) até o barco? Regras para encomendas de alimentos? | Transforma o app de um *marketplace* para um operador logístico. Risco operacional e de custo altíssimo. | **Estudo de Viabilidade:** Análise de custos vs. benefício. **Pesquisa UX:** Entrevistas para medir a demanda real por serviços "ponta-a-ponta". |
 | **3. Plataforma Técnica** | O aplicativo contará com suporte para iPhone (iOS)? | Impacto direto no custo, tempo de desenvolvimento e no tamanho do mercado alcançável (market share). | **Análise de Mercado:** Pesquisar o *market share* de dispositivos (Android vs. iOS) na região alvo. **Decisão Técnica:** Definir *roadmap* (nativo, híbrido, PWA). |
+
 
 ### Evidência da Matriz
 
