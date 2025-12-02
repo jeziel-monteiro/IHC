@@ -35,6 +35,6 @@ As imagens selecionadas como referência para a tela de compra de passagem apres
 <div align="justify">
 As imagens utilizadas como inspiração para a tela de confirmação da compra auxiliaram na análise de diferentes maneiras de apresentar os dados finais ao usuário antes da conclusão da transação. Foram observados elementos como visualização de rotas, horários, valores, formas de pagamento e estruturação das informações de forma limpa e objetiva. Com base nessas referências, buscou-se criar uma etapa final que ofereça clareza, transparência e confiança, permitindo que o usuário valide todos os dados da viagem antes de confirmar sua compra.
 
-
-
-
+## Conclusão
+<div align="justify">
+Em síntese, o mural de inspiração cumpriu um papel essencial na definição da identidade visual e na estruturação das primeiras diretrizes do sistema Porto Certo. As referências selecionadas permitiram compreender melhor padrões, soluções e abordagens já consolidadas em interfaces de venda de passagens, garantindo uma base sólida para as próximas etapas do design. Assim, o projeto segue mais alinhado, coerente e orientado a oferecer uma experiência clara, intuitiva e adequada às necessidades dos usuários do transporte fluvial.
