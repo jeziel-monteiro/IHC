@@ -2,11 +2,11 @@
 <p align="justify">
 Nesta fase do projeto, a equipe dedicou-se à definição dos ícones e das ilustrações que compõem a comunicação visual do sistema de venda de passagens fluviais. O objetivo principal foi garantir consistência semântica e clareza nas ações representadas, assegurando que cada ícone comunique exatamente a intenção designada em todas as telas. Além disso, foram selecionadas ilustrações reais e contextualizadas para reforçar a identidade regional do sistema, tornando a interface mais próxima do usuário e representando com fidelidade o universo fluvial. A escolha desses elementos visuais foi guiada pela comunicabilidade, pela facilidade de interpretação e pela capacidade de transmitir funções, estados e feedbacks de maneira imediata e intuitiva.
 
-# Ícones
+# 1. Ícones
 <p align="center">
 <img width="248" height="293" alt="Captura de tela 2025-12-01 224222" src="https://github.com/user-attachments/assets/5b055879-6cd5-4636-a986-fe08f7427128" />
 
-## Tabela de Ícones do Sistema
+## 1.1 Tabela de Ícones do Sistema
 
 Abaixo estão listados todos os ícones utilizados no sistema, juntamente com o significado e função de cada um dentro da interface.
 
@@ -37,15 +37,16 @@ Abaixo estão listados todos os ícones utilizados no sistema, juntamente com o 
 | 23 | Seta para Direita | Indica navegação para avançar, prosseguir ou confirmar etapas. |
 | 24 | Calendário | Seleção de datas, agendamento de viagens ou organização de horários. |
 
-# Ilustrações
+<br><br>
+# 2. Ilustrações
 <p align="justify">
 As ilustrações utilizadas no protótipo foram selecionadas com o objetivo de reforçar a identidade regional do sistema de venda de passagens fluviais, aproximar o usuário do contexto amazônico e tornar a interface visualmente coerente com o ambiente de atuação.
 <p align="center">
 <img width="463" height="399" alt="Captura de tela 2025-12-01 223833" src="https://github.com/user-attachments/assets/17999c5a-3178-4bb5-bf49-10bd8b352114" />
 
-## Categorias de Ilustrações e Finalidade
+## 2.2 Categorias de Ilustrações e Finalidade
 
-### 1. Embarcações Reais
+### 2.3 Embarcações Reais
 **Tipos representados:**
 - Barcos de grande porte  
 - Ferry boats  
@@ -57,7 +58,7 @@ Reforçar a identidade regional, permitindo que o usuário reconheça visualment
 
 
 
-### 2. Pontos Turísticos e Cenas Urbanas
+### 2.4 Pontos Turísticos e Cenas Urbanas
 **Elementos representados:**
 - Teatro Amazonas  
 - Letreiro “Manaus”  
@@ -67,7 +68,7 @@ Reforçar a identidade regional, permitindo que o usuário reconheça visualment
 Criar aproximação cultural com o usuário, contextualizar as rotas e destinos e fortalecer a ambientação do sistema como pertencente à região amazônica.
 
 
-### 3. Ilustrações em Listas e Perfis
+### 2.5 Ilustrações em Listas e Perfis
 **Itens representados:**
 - Miniaturas de embarcações exibidas em listas e cartões de perfis  
 
@@ -84,7 +85,7 @@ Essa escolha garante:
 
 # Conclusão
 <p align="justify">
-As imagens não são meros elementos decorativos: elas atuam como reforço visual do contexto, fortalecendo a mensagem cultural, operacional e identitária do sistema.
+A adoção de ícones e ilustrações no projeto desempenha um papel essencial na construção de uma interface clara, intuitiva e culturalmente alinhada ao contexto fluvial da região. Enquanto os ícones foram definidos para garantir precisão semântica, acessibilidade e rapidez na interpretação de ações, as ilustrações reforçam o vínculo identitário do sistema com a realidade amazônica, aproximando visualmente o usuário do ambiente de navegação. Em conjunto, esses elementos contribuem para uma comunicação visual consistente, fortalecem o entendimento das funcionalidades e tornam a interação mais amigável, humana e contextualizada.
 
 
 
