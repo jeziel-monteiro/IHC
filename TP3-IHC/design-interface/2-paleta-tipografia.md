@@ -1,4 +1,4 @@
-# Paleta de Cores
+# Paleta de Cores e Tipografia
 <div align="justify">
 Nesta etapa do projeto, a equipe definiu e apresentou a paleta de cores principal e secundária do sistema, estruturando visualmente a identidade do produto.
 Essa definição foi guiada por critérios de psicologia das cores, coerência temática com o transporte fluvial e necessidades de acessibilidade. 
@@ -6,7 +6,7 @@ A seleção cromática buscou reforçar a identidade da marca, comunicar confian
 A paleta final proporciona clareza, coerência e alinhamento direto com o propósito do sistema: a venda e gerenciamento de passagens fluviais na região amazônica.
 
   
-# Paleta de Cores - Porto Certo
+# 1. Paleta de Cores - Porto Certo
 <img width="1920" height="1080" alt="Login (7)" src="https://github.com/user-attachments/assets/e5e2a059-f100-4f49-b8a5-381a93059909" />
 
 # Explicação e justificativa de cada cor da paleta
@@ -66,11 +66,12 @@ Em termos simbólicos, o branco representa simplicidade e transparência — doi
 <div align="justify">
 Como a paleta favorece a acessibilidade, a composição das cores foi construída respeitando critérios de contraste e legibilidade. O uso do preto sobre branco e cinzas claros garante leitura adequada para usuários com baixa acuidade visual. Já o azul escuro em botões e títulos cria pontos de foco claros, facilitando a navegação por pessoas com dificuldade de atenção ou percepção de cor. O azul claro, por ser mais luminoso, evita saturação visual e mantém conforto na leitura contínua.
 
-# Tipografia
+<br><br>
+# 2. Tipografia
 <div align="justify">
 Nesta fase do projeto, a equipe dedicou-se à definição da tipografia que compõe a identidade visual do sistema. Essa escolha é fundamental para garantir clareza na comunicação, transmitir a personalidade do produto e manter a experiência do usuário consistente em todas as telas. A combinação entre fontes para títulos e textos corridos foi analisada com foco em legibilidade, coerência estética e adequação ao público que utilizará o sistema de venda de passagens fluvial.
 
-# Escolha das fontes
+#  Escolha das fontes
 ## Fonte Primaria: Montserrat (Títulos)
 <p align="center">
 <img width="163" height="147" alt="image" src="https://github.com/user-attachments/assets/e91f28e9-8650-4817-a51c-a1589b7356a0" />
@@ -89,3 +90,4 @@ Como fonte secundária, destinada ao corpo de texto, escolheu-se a Roboto. Conhe
 Essa combinação tipográfica garante harmonia visual, reforça a credibilidade do sistema e melhora a experiência de navegação para o público-alvo, que busca praticidade, clareza e confiança ao adquirir passagens fluviais online.
 
   
+
