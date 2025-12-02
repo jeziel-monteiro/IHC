@@ -2,11 +2,11 @@
 <p align="justify">
 Nesta fase do projeto, a equipe dedicou-se à definição dos ícones e das ilustrações que compõem a comunicação visual do sistema de venda de passagens fluviais. O objetivo principal foi garantir consistência semântica e clareza nas ações representadas, assegurando que cada ícone comunique exatamente a intenção designada em todas as telas. Além disso, foram selecionadas ilustrações reais e contextualizadas para reforçar a identidade regional do sistema, tornando a interface mais próxima do usuário e representando com fidelidade o universo fluvial. A escolha desses elementos visuais foi guiada pela comunicabilidade, pela facilidade de interpretação e pela capacidade de transmitir funções, estados e feedbacks de maneira imediata e intuitiva.
 
-# Ícones - Enumeração na ordem exata da imagem (coluna por coluna)
+# Ícones
 <p align="center">
 <img width="248" height="293" alt="Captura de tela 2025-12-01 224222" src="https://github.com/user-attachments/assets/5b055879-6cd5-4636-a986-fe08f7427128" />
 
-# Catálogo de Ícones do Sistema
+# Tabela de Ícones do Sistema
 
 Abaixo estão listados todos os ícones utilizados no sistema, juntamente com o significado e função de cada um dentro da interface.
 
@@ -38,12 +38,10 @@ Abaixo estão listados todos os ícones utilizados no sistema, juntamente com o 
 | 24 | Calendário | Seleção de datas, agendamento de viagens ou organização de horários. |
 
 # Ilustrações
+<p align="justify">
+As ilustrações utilizadas no protótipo foram selecionadas com o objetivo de reforçar a identidade regional do sistema de venda de passagens fluviais, aproximar o usuário do contexto amazônico e tornar a interface visualmente coerente com o ambiente de atuação.
 <p align="center">
 <img width="463" height="399" alt="Captura de tela 2025-12-01 223833" src="https://github.com/user-attachments/assets/17999c5a-3178-4bb5-bf49-10bd8b352114" />
-
-# Catálogo de Ilustrações do Sistema
-
-As ilustrações utilizadas no protótipo foram selecionadas com o objetivo de reforçar a identidade regional do sistema de venda de passagens fluviais, aproximar o usuário do contexto amazônico e tornar a interface visualmente coerente com o ambiente de atuação.
 
 ## Categorias de Ilustrações e Finalidade
 
@@ -77,8 +75,7 @@ Criar aproximação cultural com o usuário, contextualizar as rotas e destinos 
 Facilitar o reconhecimento visual de veículos cadastrados, tornando mais intuitiva a identificação de embarcações específicas durante a navegação e seleção.
 
 ## Diretrizes Visuais
-
-Todas as ilustrações seguem um estilo **fotográfico realista**.  
+Todas as ilustrações seguem um estilo fotográfico realista.  
 Essa escolha garante:
 - autenticidade das imagens,
 - fidelidade ao cenário fluvial,
@@ -86,7 +83,8 @@ Essa escolha garante:
 - e reconhecimento imediato da região amazônica como referência principal.
 
 # Conclusão
-<p align="center">
+<p align="justify">
 As imagens não são meros elementos decorativos: elas atuam como reforço visual do contexto, fortalecendo a mensagem cultural, operacional e identitária do sistema.
+
 
 
