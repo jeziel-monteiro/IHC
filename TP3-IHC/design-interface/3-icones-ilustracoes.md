@@ -6,7 +6,7 @@ Nesta fase do projeto, a equipe dedicou-se à definição dos ícones e das ilus
 <p align="center">
 <img width="248" height="293" alt="Captura de tela 2025-12-01 224222" src="https://github.com/user-attachments/assets/5b055879-6cd5-4636-a986-fe08f7427128" />
 
-# Tabela de Ícones do Sistema
+## Tabela de Ícones do Sistema
 
 Abaixo estão listados todos os ícones utilizados no sistema, juntamente com o significado e função de cada um dentro da interface.
 
@@ -85,6 +85,7 @@ Essa escolha garante:
 # Conclusão
 <p align="justify">
 As imagens não são meros elementos decorativos: elas atuam como reforço visual do contexto, fortalecendo a mensagem cultural, operacional e identitária do sistema.
+
 
 
 
