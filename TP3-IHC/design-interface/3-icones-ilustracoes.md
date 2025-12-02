@@ -6,7 +6,7 @@ Nesta fase do projeto, a equipe dedicou-se à definição dos ícones e das ilus
 <p align="center">
 <img width="248" height="293" alt="Captura de tela 2025-12-01 224222" src="https://github.com/user-attachments/assets/5b055879-6cd5-4636-a986-fe08f7427128" />
 
-## 1.1 Tabela de Ícones do Sistema
+## Tabela de Ícones do Sistema
 
 Abaixo estão listados todos os ícones utilizados no sistema, juntamente com o significado e função de cada um dentro da interface.
 
@@ -44,9 +44,9 @@ As ilustrações utilizadas no protótipo foram selecionadas com o objetivo de r
 <p align="center">
 <img width="463" height="399" alt="Captura de tela 2025-12-01 223833" src="https://github.com/user-attachments/assets/17999c5a-3178-4bb5-bf49-10bd8b352114" />
 
-## 2.2 Categorias de Ilustrações e Finalidade
+## Categorias de Ilustrações e Finalidade
 
-### 2.3 Embarcações Reais
+### Embarcações Reais
 **Tipos representados:**
 - Barcos de grande porte  
 - Ferry boats  
@@ -58,7 +58,7 @@ Reforçar a identidade regional, permitindo que o usuário reconheça visualment
 
 
 
-### 2.4 Pontos Turísticos e Cenas Urbanas
+### Pontos Turísticos e Cenas Urbanas
 **Elementos representados:**
 - Teatro Amazonas  
 - Letreiro “Manaus”  
@@ -68,7 +68,7 @@ Reforçar a identidade regional, permitindo que o usuário reconheça visualment
 Criar aproximação cultural com o usuário, contextualizar as rotas e destinos e fortalecer a ambientação do sistema como pertencente à região amazônica.
 
 
-### 2.5 Ilustrações em Listas e Perfis
+### Ilustrações em Listas e Perfis
 **Itens representados:**
 - Miniaturas de embarcações exibidas em listas e cartões de perfis  
 
@@ -86,6 +86,7 @@ Essa escolha garante:
 # Conclusão
 <p align="justify">
 A adoção de ícones e ilustrações no projeto desempenha um papel essencial na construção de uma interface clara, intuitiva e culturalmente alinhada ao contexto fluvial da região. Enquanto os ícones foram definidos para garantir precisão semântica, acessibilidade e rapidez na interpretação de ações, as ilustrações reforçam o vínculo identitário do sistema com a realidade amazônica, aproximando visualmente o usuário do ambiente de navegação. Em conjunto, esses elementos contribuem para uma comunicação visual consistente, fortalecem o entendimento das funcionalidades e tornam a interação mais amigável, humana e contextualizada.
+
 
 
 
