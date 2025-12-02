@@ -85,6 +85,8 @@ Essa escolha garante:
 - conexão direta com a experiência vivida pelo usuário,
 - e reconhecimento imediato da região amazônica como referência principal.
 
-
+# Conclusão
+<p align="center">
 As imagens não são meros elementos decorativos: elas atuam como reforço visual do contexto, fortalecendo a mensagem cultural, operacional e identitária do sistema.
+
 
