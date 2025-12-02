@@ -37,10 +37,12 @@ Abaixo estão listados todos os ícones utilizados no sistema, juntamente com o 
 | 22 | Botão Azul “+” | Botão de ação para adicionar itens: foto, embarcação, registro, documento ou outro elemento. |
 | 23 | Seta para Direita | Indica navegação para avançar, prosseguir ou confirmar etapas. |
 | 24 | Calendário | Seleção de datas, agendamento de viagens ou organização de horários. |
-| 25 | Imagem | Representa upload de arquivo ou imagem. |
-| 26 | Lupa preta | Acesso direto à busca do sistema, presente na barra inferior. |
+| 25 | Lupa preta | Acesso direto à busca do sistema, presente na barra inferior. |
+| 26 | Lupa cinza | Usada em campos internos de busca, como filtros, listas e telas com pesquisa local. |
 | 27 | Toggle (interruptor) | Usado para ativar ou desativar opções. |
 | 28 | Arquivo com imagem | Opção para baixar o bilhete como imagem (PNG/JPG). |
+| 29 | Imagem | Representa upload de arquivo ou imagem. |
+
 
 <br><br>
 ## 2. Ilustrações
@@ -91,3 +93,4 @@ Essa escolha garante:
 ## Conclusão
 <p align="justify">
 A adoção de ícones e ilustrações no projeto desempenha um papel essencial na construção de uma interface clara, intuitiva e culturalmente alinhada ao contexto fluvial da região. Enquanto os ícones foram definidos para garantir precisão semântica, acessibilidade e rapidez na interpretação de ações, as ilustrações reforçam o vínculo identitário do sistema com a realidade amazônica, aproximando visualmente o usuário do ambiente de navegação. Em conjunto, esses elementos contribuem para uma comunicação visual consistente, fortalecem o entendimento das funcionalidades e tornam a interação mais amigável, humana e contextualizada.
+
