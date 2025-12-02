@@ -17,7 +17,7 @@ Dessa forma, o mural reflete não apenas a linguagem visual pretendida, mas tamb
 <div align="justify">
 As imagens utilizadas como inspiração para a tela inicial ajudaram a equipe a identificar padrões de organização, apresentação de informações essenciais e direcionamento visual. Foram observados elementos como textos introdutórios, ícones, atalhos de navegação e distribuição equilibrada dos componentes na tela. Com base nelas, buscou-se replicar a sensação de clareza, bem-vindas e orientação imediata ao usuário desde o primeiro contato com o sistema.
   
-## Inspirações para a Tela de Login e cadastro
+## Inspirações para a Tela de Login e Cadastro
 <p align="center">
 <img width="3000" height="3000" alt="Login (1)" src="https://github.com/user-attachments/assets/0efc89a9-a97c-48dd-9dd3-71e999e994ce" />
 <div align="justify">
