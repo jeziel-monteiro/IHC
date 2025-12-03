@@ -153,7 +153,7 @@ O processo de checkout foi desenhado para ser linear e sem distrações. A divis
 
 ## 2.6 Tela de Viagens Gerais
 
-![Viagens em Andamento](https://github.com/user-attachments/assets/ab5a49a7-f8d4-4e0f-a3d6-126832793b29)
+<img width="219" height="475" alt="1600 96 % Seja bem vindo ! Cadastro como Usuário Cadastro com Conta Empresarial Já possui conta Faça Login (1)" src="https://github.com/user-attachments/assets/5e403c15-9eb0-41fe-b161-3d220a75016d" />
 
 - A tela é dividida verticalmente em três seções distintas, separadas por títulos em negrito ("Viagens em Andamento", "Viagens Programadas", "Viagens Realizadas"), permitindo que o usuário localize rapidamente a informação que precisa com base no status da viagem.
 - Cada viagem é representada por um card com um cabeçalho azul escuro que destaca a rota (Origem $\rightarrow$ Destino). O corpo do card é branco, contendo uma foto da embarcação à esquerda e os detalhes técnicos à direita, mantendo a consistência visual com as telas de busca anteriores.
@@ -162,7 +162,7 @@ Esta tela fecha o ciclo de experiência do usuário. O design adapta inteligente
 
 ### 2.7 Home - Proprietário
 
-![Home - Proprietario](https://github.com/user-attachments/assets/a821b14a-4d72-4349-89cf-3579249c6990)
+<img width="220" height="475" alt="1600 96 % Seja bem vindo ! Cadastro como Usuário Cadastro com Conta Empresarial Já possui conta Faça Login" src="https://github.com/user-attachments/assets/0ef4741f-3cc5-4cd7-9ad5-5de1251b9da8" />
 
 ### 2.7.1 Painel de Plano de Viagens
 
@@ -325,5 +325,6 @@ Esta tela ilustra a funcionalidade de Textos Ampliados (Fontes Grandes), vital p
 - Mesmo com o aumento da fonte, os campos de entrada e o botão de ação "Buscar" se ajustaram proporcionalmente, garantindo que o texto não fique cortado e que as áreas de toque (clique) sejam maiores e mais fáceis de acertar.
 
 Essas telas confirmam que o Sistema não apenas possui um menu de acessibilidade, mas que o sistema foi construído para se adaptar elasticamente. O design não "quebra" quando submetido a mudanças drásticas de cor ou tamanho de fonte, mantendo a usabilidade intacta para todos os perfis de passageiros e proprietários.
+
 
 
