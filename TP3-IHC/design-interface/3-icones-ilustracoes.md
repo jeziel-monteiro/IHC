@@ -4,14 +4,17 @@ Nesta fase do projeto, a equipe dedicou-se à definição dos ícones, das ilust
 
 <br><br>
 # 1. Ícones
+
+<br><br>
 <p align="center">
 <img width="420" height="631" alt="image" src="https://github.com/user-attachments/assets/62ae224f-579b-4beb-b435-1b44c4cb384e" />
-<br><br>
   
-### Tabela de Ícones do Sistema
+<br><br>
+## Tabela de Ícones do Sistema
 
 Abaixo estão listados todos os ícones utilizados no sistema, juntamente com o significado e função de cada um dentro da interface.
 
+<br><br>
 | ID | Ícone | Função no Sistema |
 |---:|-------|------------------|
 | 1 | Nuvem | Usada como ícone neutro para indicar notificações novas, avisos rápidos ou atualizações do sistema. |
@@ -48,13 +51,14 @@ Abaixo estão listados todos os ícones utilizados no sistema, juntamente com o 
 # 2. Ilustrações
 <p align="justify">
 As ilustrações utilizadas no protótipo foram selecionadas com o objetivo de reforçar a identidade regional do sistema de venda de passagens fluviais, aproximar o usuário do contexto amazônico e tornar a interface visualmente coerente com o ambiente de atuação.
-<br><br>
-<p align="center">
-<img width="563" height="499" alt="Captura de tela 2025-12-01 223833" src="https://github.com/user-attachments/assets/17999c5a-3178-4bb5-bf49-10bd8b352114" />
-<br><br>
-  
-## Categorias de Ilustrações e Finalidade
 
+<br><br> 
+<p align="center">
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b670b7cb-a102-4052-a578-b7d116cd2c04" />
+
+
+<br><br> 
+## Categorias de Ilustrações e Finalidade
 ### Embarcações Reais
 **Tipos representados:**
 - Barcos de grande porte  
@@ -65,6 +69,7 @@ As ilustrações utilizadas no protótipo foram selecionadas com o objetivo de r
 **Função:**  
 Reforçar a identidade regional, permitindo que o usuário reconheça visualmente os modelos de transporte disponíveis e se conecte ao propósito do sistema.
 
+<br><br>
 ### Pontos Turísticos e Cenas Urbanas
 **Elementos representados:**
 - Teatro Amazonas  
@@ -74,7 +79,7 @@ Reforçar a identidade regional, permitindo que o usuário reconheça visualment
 **Função:**  
 Criar aproximação cultural com o usuário, contextualizar as rotas e destinos e fortalecer a ambientação do sistema como pertencente à região amazônica.
 
-
+<br><br>
 ### Ilustrações em Listas e Perfis
 **Itens representados:**
 - Miniaturas de embarcações exibidas em listas e cartões de perfis  
@@ -82,13 +87,15 @@ Criar aproximação cultural com o usuário, contextualizar as rotas e destinos 
 **Função:**  
 Facilitar o reconhecimento visual de veículos cadastrados, tornando mais intuitiva a identificação de embarcações específicas durante a navegação e seleção.
 
+<br><br>
 ## Diretrizes Visuais
 Todas as ilustrações seguem um estilo fotográfico realista.  
 Essa escolha garante:
 - autenticidade das imagens,
 - fidelidade ao cenário fluvial,
 - conexão direta com a experiência vivida pelo usuário,
-- e reconhecimento imediato da região amazônica como referência principal.  
+- e reconhecimento imediato da região amazônica como referência principal.
+  
 <br><br>
 # 3. Nome e Logotipo - Identidade Visual do Aplicativo 
 <p align="justify">
@@ -97,37 +104,37 @@ Seu logotipo é composto por uma onda estilizada dentro de um círculo, utilizan
   
 <br><br>
 <p align="center">
-<img width="419" height="415" alt="image" src="https://github.com/user-attachments/assets/31e5488f-75ed-45ab-8d91-e5c4f9cacd70" />
-<br><br>
-
+<img width="492" height="489" alt="image" src="https://github.com/user-attachments/assets/68b2a9d9-74fe-4fa5-af5a-af5fba22e9a7" />
   
+<br><br>
 ## Conceito visual e semântico da identidade
-<p align="justify">
 A identidade visual foi criada para representar o objetivo do sistema: integrar informações sobre transportes fluviais, atendendo tanto passageiros quanto proprietários de embarcações, oferecendo:
 
 - compra e venda de passagens;
 - visualização e acompanhamento de embarques;
 - rastreamento de encomendas;
 - gerenciamento de viagens e embarcações.
+  
 <p align="justify">
 A onda simboliza o movimento das embarcações e o fluxo constante dos rios.  
 O círculo transmite a ideia de ciclo completo e destino seguro, representando a jornada do usuário desde a consulta até a chegada ou entrega.  
 O nome “Porto Certo” reforça a ideia de segurança, orientação e chegada ao local correto.
 
+<br><br>
 ## Como cor, forma e tipografia comunicam a proposta do produto
-
 ### Cores
 
 - O azul remete diretamente à água (rios e navegação) e comunica confiança, segurança e tecnologia, alinhado ao contexto de compra de passagens, envio de encomendas e gestão de embarcações.
-  
-- O fundo escuro destaca o símbolo e transmite seriedade e profissionalismo, reforçando a ideia de um sistema confiável.
 
+<br><br>
 ### Formas  
 - O círculo representa proteção, continuidade e integração, refletindo o papel do sistema de concentrar, em um único lugar, informações de rotas, horários, embarques, encomendas e perfis das embarcações.
   
 - A onda sugere deslocamento, mobilidade e o próprio ambiente fluvial, conectando visualmente o logotipo às funcionalidades do aplicativo.
 
+<br><br>
 ### Tipografia 
+
 - A fonte em caixa alta e com traços firmes transmite robustez, clareza e organização.
   
 - A leitura direta de “PORTO CERTO” e "VIAGENS" reforça a proposta de um serviço sério e confiável para transporte fluvial, compra de passagens e envio de encomendas, tanto na web quanto no aplicativo android.
@@ -136,6 +143,7 @@ O nome “Porto Certo” reforça a ideia de segurança, orientação e chegada 
 # Conclusão
 <p align="justify">
 A identidade visual do Porto Certo Viagens traduz, de forma clara e objetiva, seu propósito: integrar e facilitar o acesso ao transporte fluvial. Cores, formas, tipografia, ícones e ilustrações reforçam segurança, organização e conexão com o contexto regional, tornando o sistema intuitivo, representativo e alinhado às necessidades de passageiros e proprietários de embarcações
+
 
 
 
